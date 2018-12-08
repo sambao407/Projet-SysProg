@@ -54,5 +54,56 @@
     <Folder Include="Model\" />
     <Folder Include="View\" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ressources\0657c00b43e2a66.jpg" />
+    <Content Include="Ressources\288px-Festive_Dining_Table - Copie.png" />
+    <Content Include="Ressources\288px-Festive_Dining_Table.png" />
+    <Content Include="Ressources\288px-Mahogany_Dining_Table - Copie.png" />
+    <Content Include="Ressources\288px-Mahogany_Dining_Table.png" />
+    <Content Include="Ressources\air-hostess.png" />
+    <Content Include="Ressources\businessman.png" />
+    <Content Include="Ressources\chef.png" />
+    <Content Include="Ressources\chef1.png" />
+    <Content Include="Ressources\chef2.png" />
+    <Content Include="Ressources\cooker.png" />
+    <Content Include="Ressources\Dining_Chair_%28red%29.png" />
+    <Content Include="Ressources\Diviner_Table.png" />
+    <Content Include="Ressources\donation.png" />
+    <Content Include="Ressources\Flooring_02.png" />
+    <Content Include="Ressources\Flooring_021.png" />
+    <Content Include="Ressources\Flooring_022.png" />
+    <Content Include="Ressources\Flooring_06.png" />
+    <Content Include="Ressources\Flooring_10.png" />
+    <Content Include="Ressources\Flooring_101.png" />
+    <Content Include="Ressources\Flooring_102.png" />
+    <Content Include="Ressources\Flooring_103.png" />
+    <Content Include="Ressources\Flooring_11.png" />
+    <Content Include="Ressources\Flooring_14.png" />
+    <Content Include="Ressources\Flooring_18.png" />
+    <Content Include="Ressources\Flooring_23.png" />
+    <Content Include="Ressources\Flooring_36.png" />
+    <Content Include="Ressources\Flooring_39.png" />
+    <Content Include="Ressources\fridge.png" />
+    <Content Include="Ressources\full-frame-shot-of-red-textured-background_23-2147878490.jpg" />
+    <Content Include="Ressources\Grandmother_End_Table.png" />
+    <Content Include="Ressources\Modern_Table.png" />
+    <Content Include="Ressources\Modern_Table1.png" />
+    <Content Include="Ressources\Modern_Tea-Table.png" />
+    <Content Include="Ressources\pause.png" />
+    <Content Include="Ressources\play-button.png" />
+    <Content Include="Ressources\snowflake.png" />
+    <Content Include="Ressources\volunteer.png" />
+    <Content Include="Ressources\waiter %281%29.png" />
+    <Content Include="Ressources\waiter.png" />
+    <Content Include="Ressources\Wallpaper_068.png" />
+    <Content Include="Ressources\Winter_End_Table - Copie.png" />
+    <Content Include="Ressources\Winter_End_Table - Copie1.png" />
+    <Content Include="Ressources\Winter_End_Table.png" />
+    <Content Include="Ressources\Winter_End_Table1.png" />
+    <Content Include="Ressources\Winter_End_Table2.png" />
+    <Content Include="Ressources\Winter_Table - Copie.png" />
+    <Content Include="Ressources\Winter_Table.png" />
+    <Content Include="Ressources\Winter_Table1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
