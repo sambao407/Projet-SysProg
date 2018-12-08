@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Model\BDDConnection.cs" />
     <Compile Include="Model\ChefCuisine.cs" />
     <Compile Include="Model\ChefRang.cs" />
     <Compile Include="Model\Client.cs" />
