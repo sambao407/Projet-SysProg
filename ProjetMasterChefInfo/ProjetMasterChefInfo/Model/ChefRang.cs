@@ -4,17 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProjetMasterChefInfo.Model {
+namespace ProjetMasterChefInfo.Model
+{
 
-    class ChefRang {
+    class ChefRang
+    {
 
         public int id { get; set; }
 
-        public ChefRang(int id) {
+        public ChefRang(int id)
+        {
             this.id = id;
         }
 
-        public void takeOrder(Client client) {
+        public void takeOrder(Client client)
+        {
 
             client.giveOrder();
             Console.WriteLine("ChefRang[" + id + "]: <<" + client.order + ">> was added to pending orders");

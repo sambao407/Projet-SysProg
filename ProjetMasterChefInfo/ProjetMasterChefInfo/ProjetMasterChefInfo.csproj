@@ -43,6 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DidierLauncher.cs" />
+    <Compile Include="KerimLauncher.cs" />
+    <Compile Include="MarcLauncher.cs" />
     <Compile Include="Model\ChefCuisine.cs" />
     <Compile Include="Model\ChefRang.cs" />
     <Compile Include="Model\Client.cs" />
@@ -62,6 +65,7 @@
     <Compile Include="Model\Stock.cs" />
     <Compile Include="Model\Table.cs" />
     <Compile Include="Model\Testconnexion.cs" />
+    <Compile Include="OrlandoLauncher.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

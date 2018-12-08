@@ -10,15 +10,15 @@ namespace ProjetMasterChefInfo.Model
     {
         public int id { get; set; }
         public bool state { get; set; }
-        public Commande commande { get; set; }
+        public Commande commande = null;
+        public string nomcuisinier { get; set; }
 
-        public Cuisinier(int id, bool state, Commande commande){
-        this.id = id;
-        this.state = state;
-        this.commande = commande;
-
+        public Cuisinier(int id, string nomcuisinier, bool state, Commande commande)
+        {
+            this.id = id;
+            this.nomcuisinier = nomcuisinier;
+            this.state = state;
+            this.commande = commande;
         }
     }
-
-
 }
