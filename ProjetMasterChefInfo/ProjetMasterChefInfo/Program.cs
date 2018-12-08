@@ -11,9 +11,9 @@ namespace ProjetMasterChefInfo
     {
         static void Main(string[] args)
         {
-            TestConnexion p = new TestConnexion();
+            /*TestConnexion p = new TestConnexion();
             p.connect();
-            Console.ReadLine();
+            Console.ReadLine();*/
         }
     }
 }
