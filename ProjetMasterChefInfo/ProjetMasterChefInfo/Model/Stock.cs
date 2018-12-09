@@ -6,10 +6,14 @@ using System.Threading.Tasks;
 
 namespace ProjetMasterChefInfo.Model {
 
-    class Stock {
+    public class Stock {
 
-        public string type { get; set; }
         public string name { get; set; }
-        public int num { get; set; }
+
+        public Stock(string name)
+        {
+            // connexion base de données
+            // récupération de la table ingrédient
+        }
     }
 }
