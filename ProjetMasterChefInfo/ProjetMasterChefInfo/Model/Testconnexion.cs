@@ -14,8 +14,10 @@ namespace ProjetMasterChefInfo.Model
 
     class TestConnexion
     {
-        public void connect()
+      
+      public void connect()
         {
+       
             SqlConnection cn = new SqlConnection("Data Source=GEARLESS-JOE\\SAMBASQL;Initial Catalog=ProjetSysProg;Integrated Security=True");
             SqlCommand cmd = new SqlCommand("SELECT * FROM Ingredient", cn);
             cn.Open();
@@ -28,6 +30,5 @@ namespace ProjetMasterChefInfo.Model
 
             cn.Close();
         }
-
     }
 }
