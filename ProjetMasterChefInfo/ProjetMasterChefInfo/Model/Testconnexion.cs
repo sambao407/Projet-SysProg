@@ -7,18 +7,15 @@ using System.Data.SqlClient;
 
 namespace ProjetMasterChefInfo.Model
 {
-    //private SqlConnection cn;
-    //private SqlCommand cmd;
-    //private SqlDataReader rdr;
-    //private DataTa dt;
+    
 
     class TestConnexion
     {
-      
-      public void connect()
+         
+        private string result;
+        public void connect()
         {
-       
-            SqlConnection cn = new SqlConnection("Data Source=GEARLESS-JOE\\SAMBASQL;Initial Catalog=ProjetSysProg;Integrated Security=True");
+            SqlConnection cn = new SqlConnection("Data Source=GEARLESS-JOE;Initial Catalog=ProjetSysProg;Integrated Security=True");
             SqlCommand cmd = new SqlCommand("SELECT * FROM Ingredient", cn);
             cn.Open();
             SqlDataReader rdr = cmd.ExecuteReader();
@@ -29,6 +26,27 @@ namespace ProjetMasterChefInfo.Model
             rdr.Close();
 
             cn.Close();
+ 
         }
+
+        public string Check_Stock()
+        {
+            this.result = "SELECT Nom_Ingredient, Quantite FROM Ingredient INNER JOIN Recette ON Recette.RecetteID = Ingredient.ID_Ingredient";
+            return this.result;
+        }
+
+        public string Upgrade_Stock()
+        {
+            this.result = "UPDATE Ingredient SET Quantite = 20 WHERE Quantite = 0";
+            return this.result;
+        }
+
+        public string Select_Command()
+        {
+            this.result = "UPDATE Ingredient SET Quantite = Quantite - 1 WHERE Recette.Nom_Recette = Recette_Name;";
+            return this.result;
+        }
+
+
     }
 }
