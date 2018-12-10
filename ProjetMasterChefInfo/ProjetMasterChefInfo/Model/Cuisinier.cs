@@ -31,18 +31,18 @@ namespace ProjetMasterChefInfo.Model
                     Console.WriteLine("Commande : " + cuisinier.commande.nomcommande + " déjà terminée.");
                 }
 
-                if (cuisinier.commande.stateCommande == 3) // si la commande est déjà prise par un autre cuisinier
+                else if (cuisinier.commande.stateCommande == 3) // si la commande est déjà prise par un autre cuisinier
                 {
                     Console.WriteLine("Commande : " + cuisinier.commande.nomcommande + " est déjà prise en compte par l'autre cuisinier.");
                 }
 
-                if (cuisinier.commande.stateCommande == 1) // si la commande est déjà assignée à un cuisinier
+                else if (cuisinier.commande.stateCommande == 1) // si la commande est déjà assignée à un cuisinier
                 {
                     cuisinier.commande.stateCommande = 3; // commande assignée à au cuisinier
                     Console.WriteLine("Commande : " + cuisinier.commande.nomcommande + " est en cours.");
+                    cuisinier.commande.stateCommande = 2; // si la commande est terminée
                     Thread.Sleep(5000);
                     Console.WriteLine("Commande : " + cuisinier.commande.nomcommande + " terminée.");
-                    cuisinier.commande.stateCommande = 2; // si la commande est terminée
                 }
             }
 
