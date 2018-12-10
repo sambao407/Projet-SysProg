@@ -13,6 +13,7 @@ namespace ProjetMasterChefInfo.Model
     {
          
         private string result;
+
         public void connect()
         {
             SqlConnection cn = new SqlConnection("Data Source=GEARLESS-JOE;Initial Catalog=ProjetSysProg;Integrated Security=True");
