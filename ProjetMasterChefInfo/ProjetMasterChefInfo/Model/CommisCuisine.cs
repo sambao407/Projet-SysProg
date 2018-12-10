@@ -10,5 +10,6 @@ namespace ProjetMasterChefInfo.Model
     {
         public int ID { get; set; }
         public bool state { get; set; }
+        public string test;
     }
 }
