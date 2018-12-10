@@ -25,15 +25,15 @@ namespace ProjetMasterChefInfo.Model
         {
             if (cuisinier.state == true) // si le cuisinier est prêt
             {
-                if (commande.stateCommande == 0) // si la commande est pas faite
+                if (commande.stateCommande == 0) // si la commande prise en compte mais pas assignée à un cuisinier
                 {
                     cuisinier.commande = commande;
                     cuisinier.state = false;
-                    commande.stateCommande = 1;
+                    commande.stateCommande = 1; // commande assignée à un cuisinier 
                     Console.WriteLine("Commande " + cuisinier.commande.nomcommande + " prise en compte par " + cuisinier.nomcuisinier);
                 }
 
-                else if (commande.stateCommande == 1) // si la commande est en cours
+                else if (commande.stateCommande == 1) // si la commande est déjà assignée à un cuisinier
                 {
                     Console.WriteLine("Commande en attente d'être preparée par l'autre cuisinier.");
                 }

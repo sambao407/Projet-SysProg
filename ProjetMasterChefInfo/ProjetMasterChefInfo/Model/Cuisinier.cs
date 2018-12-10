@@ -26,23 +26,23 @@ namespace ProjetMasterChefInfo.Model
         {
             if(cuisinier.state == false)
             {
-                if (cuisinier.commande.stateCommande == 2)
+                if (cuisinier.commande.stateCommande == 2) // si la commande est terminée
                 {
                     Console.WriteLine("Commande : " + cuisinier.commande.nomcommande + " déjà terminée.");
                 }
 
-                if (cuisinier.commande.stateCommande == 3)
+                if (cuisinier.commande.stateCommande == 3) // si la commande est déjà prise par un autre cuisinier
                 {
-                    Console.WriteLine("Commande : " + cuisinier.commande.nomcommande + " est déjà en cours.");
+                    Console.WriteLine("Commande : " + cuisinier.commande.nomcommande + " est déjà prise en compte par l'autre cuisinier.");
                 }
 
-                if (cuisinier.commande.stateCommande == 1) // si la commande est en cours
+                if (cuisinier.commande.stateCommande == 1) // si la commande est déjà assignée à un cuisinier
                 {
-                    cuisinier.commande.stateCommande = 3; // on met la commande un autre état en cours
+                    cuisinier.commande.stateCommande = 3; // commande assignée à au cuisinier
                     Console.WriteLine("Commande : " + cuisinier.commande.nomcommande + " est en cours.");
                     Thread.Sleep(5000);
                     Console.WriteLine("Commande : " + cuisinier.commande.nomcommande + " terminée.");
-                    cuisinier.commande.stateCommande = 2; // on met la commande à l'état terminée
+                    cuisinier.commande.stateCommande = 2; // si la commande est terminée
                 }
             }
 
@@ -51,5 +51,6 @@ namespace ProjetMasterChefInfo.Model
                 Console.WriteLine("Aucune commande n'a été assigné au cuisinier : " + cuisinier.nomcuisinier);
             }
         }
+
     }
 }
