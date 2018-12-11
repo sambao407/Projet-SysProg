@@ -31,6 +31,9 @@
             this.components = new System.ComponentModel.Container();
             this.Timer = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.pictureBox59 = new System.Windows.Forms.PictureBox();
+            this.pictureBox58 = new System.Windows.Forms.PictureBox();
+            this.pictureBox57 = new System.Windows.Forms.PictureBox();
             this.pictureBox56 = new System.Windows.Forms.PictureBox();
             this.pictureBox55 = new System.Windows.Forms.PictureBox();
             this.pictureBox54 = new System.Windows.Forms.PictureBox();
@@ -87,6 +90,9 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox59)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox58)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox57)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox56)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox55)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox54)).BeginInit();
@@ -149,7 +155,7 @@
             // 
             this.Timer.AutoSize = true;
             this.Timer.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Timer.Location = new System.Drawing.Point(75, 1);
+            this.Timer.Location = new System.Drawing.Point(0, 5);
             this.Timer.Name = "Timer";
             this.Timer.Size = new System.Drawing.Size(76, 29);
             this.Timer.TabIndex = 58;
@@ -159,6 +165,37 @@
             // timer1
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // pictureBox59
+            // 
+            this.pictureBox59.Image = global::ProjetMasterChefInfo.Properties.Resources.settings;
+            this.pictureBox59.Location = new System.Drawing.Point(76, -1);
+            this.pictureBox59.Name = "pictureBox59";
+            this.pictureBox59.Size = new System.Drawing.Size(35, 35);
+            this.pictureBox59.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox59.TabIndex = 64;
+            this.pictureBox59.TabStop = false;
+            this.pictureBox59.Click += new System.EventHandler(this.pictureBox59_Click);
+            // 
+            // pictureBox58
+            // 
+            this.pictureBox58.Image = global::ProjetMasterChefInfo.Properties.Resources.fast_forward__1_;
+            this.pictureBox58.Location = new System.Drawing.Point(199, -1);
+            this.pictureBox58.Name = "pictureBox58";
+            this.pictureBox58.Size = new System.Drawing.Size(35, 35);
+            this.pictureBox58.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox58.TabIndex = 63;
+            this.pictureBox58.TabStop = false;
+            this.pictureBox58.Click += new System.EventHandler(this.pictureBox58_Click);
+            // 
+            // pictureBox57
+            // 
+            this.pictureBox57.BackgroundImage = global::ProjetMasterChefInfo.Properties.Resources.Flooring_11;
+            this.pictureBox57.Location = new System.Drawing.Point(-6, 143);
+            this.pictureBox57.Name = "pictureBox57";
+            this.pictureBox57.Size = new System.Drawing.Size(875, 18);
+            this.pictureBox57.TabIndex = 62;
+            this.pictureBox57.TabStop = false;
             // 
             // pictureBox56
             // 
@@ -193,7 +230,7 @@
             // pictureBox53
             // 
             this.pictureBox53.Image = global::ProjetMasterChefInfo.Properties.Resources.play_button;
-            this.pictureBox53.Location = new System.Drawing.Point(39, 1);
+            this.pictureBox53.Location = new System.Drawing.Point(158, -1);
             this.pictureBox53.Name = "pictureBox53";
             this.pictureBox53.Size = new System.Drawing.Size(35, 35);
             this.pictureBox53.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -204,7 +241,7 @@
             // pictureBox52
             // 
             this.pictureBox52.Image = global::ProjetMasterChefInfo.Properties.Resources.pause;
-            this.pictureBox52.Location = new System.Drawing.Point(2, 1);
+            this.pictureBox52.Location = new System.Drawing.Point(117, -1);
             this.pictureBox52.Name = "pictureBox52";
             this.pictureBox52.Size = new System.Drawing.Size(35, 35);
             this.pictureBox52.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -238,7 +275,7 @@
             // 
             this.pictureBox50.BackgroundImage = global::ProjetMasterChefInfo.Properties.Resources.Flooring_18;
             this.pictureBox50.Image = global::ProjetMasterChefInfo.Properties.Resources.waiter1;
-            this.pictureBox50.Location = new System.Drawing.Point(799, 366);
+            this.pictureBox50.Location = new System.Drawing.Point(769, 584);
             this.pictureBox50.Name = "pictureBox50";
             this.pictureBox50.Size = new System.Drawing.Size(64, 64);
             this.pictureBox50.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -249,18 +286,19 @@
             // 
             this.pictureBox49.BackgroundImage = global::ProjetMasterChefInfo.Properties.Resources.Flooring_18;
             this.pictureBox49.Image = global::ProjetMasterChefInfo.Properties.Resources.waiter1;
-            this.pictureBox49.Location = new System.Drawing.Point(688, 161);
+            this.pictureBox49.Location = new System.Drawing.Point(725, 191);
             this.pictureBox49.Name = "pictureBox49";
             this.pictureBox49.Size = new System.Drawing.Size(64, 64);
             this.pictureBox49.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBox49.TabIndex = 53;
             this.pictureBox49.TabStop = false;
+            this.pictureBox49.Click += new System.EventHandler(this.pictureBox49_Click);
             // 
             // pictureBox48
             // 
             this.pictureBox48.BackgroundImage = global::ProjetMasterChefInfo.Properties.Resources.Flooring_18;
             this.pictureBox48.Image = global::ProjetMasterChefInfo.Properties.Resources.waiter__1_1;
-            this.pictureBox48.Location = new System.Drawing.Point(565, 544);
+            this.pictureBox48.Location = new System.Drawing.Point(455, 512);
             this.pictureBox48.Name = "pictureBox48";
             this.pictureBox48.Size = new System.Drawing.Size(64, 64);
             this.pictureBox48.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -271,7 +309,7 @@
             // 
             this.pictureBox47.BackgroundImage = global::ProjetMasterChefInfo.Properties.Resources.Flooring_18;
             this.pictureBox47.Image = global::ProjetMasterChefInfo.Properties.Resources.waiter__1_1;
-            this.pictureBox47.Location = new System.Drawing.Point(487, 389);
+            this.pictureBox47.Location = new System.Drawing.Point(575, 610);
             this.pictureBox47.Name = "pictureBox47";
             this.pictureBox47.Size = new System.Drawing.Size(64, 64);
             this.pictureBox47.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -282,18 +320,19 @@
             // 
             this.pictureBox46.BackgroundImage = global::ProjetMasterChefInfo.Properties.Resources.Flooring_18;
             this.pictureBox46.Image = global::ProjetMasterChefInfo.Properties.Resources.waiter__1_1;
-            this.pictureBox46.Location = new System.Drawing.Point(393, 161);
+            this.pictureBox46.Location = new System.Drawing.Point(565, 330);
             this.pictureBox46.Name = "pictureBox46";
             this.pictureBox46.Size = new System.Drawing.Size(64, 64);
             this.pictureBox46.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBox46.TabIndex = 50;
             this.pictureBox46.TabStop = false;
+            this.pictureBox46.Click += new System.EventHandler(this.pictureBox46_Click);
             // 
             // pictureBox45
             // 
             this.pictureBox45.BackgroundImage = global::ProjetMasterChefInfo.Properties.Resources.Flooring_18;
             this.pictureBox45.Image = global::ProjetMasterChefInfo.Properties.Resources.waiter__1_1;
-            this.pictureBox45.Location = new System.Drawing.Point(248, 56);
+            this.pictureBox45.Location = new System.Drawing.Point(488, 330);
             this.pictureBox45.Name = "pictureBox45";
             this.pictureBox45.Size = new System.Drawing.Size(64, 64);
             this.pictureBox45.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -304,7 +343,7 @@
             // 
             this.pictureBox44.BackColor = System.Drawing.Color.DarkRed;
             this.pictureBox44.Image = global::ProjetMasterChefInfo.Properties.Resources.head_waiter__1_;
-            this.pictureBox44.Location = new System.Drawing.Point(12, 535);
+            this.pictureBox44.Location = new System.Drawing.Point(12, 512);
             this.pictureBox44.Name = "pictureBox44";
             this.pictureBox44.Size = new System.Drawing.Size(64, 64);
             this.pictureBox44.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -315,7 +354,7 @@
             // 
             this.pictureBox43.BackgroundImage = global::ProjetMasterChefInfo.Properties.Resources.Flooring_18;
             this.pictureBox43.Image = global::ProjetMasterChefInfo.Properties.Resources.head_waiter;
-            this.pictureBox43.Location = new System.Drawing.Point(185, 407);
+            this.pictureBox43.Location = new System.Drawing.Point(189, 461);
             this.pictureBox43.Name = "pictureBox43";
             this.pictureBox43.Size = new System.Drawing.Size(64, 64);
             this.pictureBox43.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -326,7 +365,7 @@
             // 
             this.pictureBox42.BackgroundImage = global::ProjetMasterChefInfo.Properties.Resources.Flooring_18;
             this.pictureBox42.Image = global::ProjetMasterChefInfo.Properties.Resources.head_waiter;
-            this.pictureBox42.Location = new System.Drawing.Point(118, 271);
+            this.pictureBox42.Location = new System.Drawing.Point(189, 330);
             this.pictureBox42.Name = "pictureBox42";
             this.pictureBox42.Size = new System.Drawing.Size(64, 64);
             this.pictureBox42.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -399,7 +438,7 @@
             // 
             this.pictureBox35.BackgroundImage = global::ProjetMasterChefInfo.Properties.Resources.Flooring_23;
             this.pictureBox35.Image = global::ProjetMasterChefInfo.Properties.Resources.chef21;
-            this.pictureBox35.Location = new System.Drawing.Point(943, 252);
+            this.pictureBox35.Location = new System.Drawing.Point(943, 256);
             this.pictureBox35.Name = "pictureBox35";
             this.pictureBox35.Size = new System.Drawing.Size(64, 64);
             this.pictureBox35.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -409,7 +448,7 @@
             // pictureBox34
             // 
             this.pictureBox34.Image = global::ProjetMasterChefInfo.Properties.Resources.Modern_Tea_Table1;
-            this.pictureBox34.Location = new System.Drawing.Point(856, 161);
+            this.pictureBox34.Location = new System.Drawing.Point(855, 161);
             this.pictureBox34.Name = "pictureBox34";
             this.pictureBox34.Size = new System.Drawing.Size(46, 102);
             this.pictureBox34.TabIndex = 38;
@@ -572,9 +611,9 @@
             // pictureBox17
             // 
             this.pictureBox17.BackColor = System.Drawing.Color.DarkRed;
-            this.pictureBox17.Location = new System.Drawing.Point(2, 535);
+            this.pictureBox17.Location = new System.Drawing.Point(2, 439);
             this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(135, 184);
+            this.pictureBox17.Size = new System.Drawing.Size(135, 289);
             this.pictureBox17.TabIndex = 16;
             this.pictureBox17.TabStop = false;
             // 
@@ -582,7 +621,7 @@
             // 
             this.pictureBox16.BackgroundImage = global::ProjetMasterChefInfo.Properties.Resources.Flooring_18;
             this.pictureBox16.Image = global::ProjetMasterChefInfo.Properties.Resources.Diviner_Table;
-            this.pictureBox16.Location = new System.Drawing.Point(255, 574);
+            this.pictureBox16.Location = new System.Drawing.Point(255, 614);
             this.pictureBox16.Name = "pictureBox16";
             this.pictureBox16.Size = new System.Drawing.Size(50, 60);
             this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -593,7 +632,7 @@
             // 
             this.pictureBox15.BackgroundImage = global::ProjetMasterChefInfo.Properties.Resources.Flooring_18;
             this.pictureBox15.Image = global::ProjetMasterChefInfo.Properties.Resources.Diviner_Table;
-            this.pictureBox15.Location = new System.Drawing.Point(760, 433);
+            this.pictureBox15.Location = new System.Drawing.Point(754, 495);
             this.pictureBox15.Name = "pictureBox15";
             this.pictureBox15.Size = new System.Drawing.Size(50, 60);
             this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -604,7 +643,7 @@
             // 
             this.pictureBox14.BackgroundImage = global::ProjetMasterChefInfo.Properties.Resources.Flooring_18;
             this.pictureBox14.Image = global::ProjetMasterChefInfo.Properties.Resources.Diviner_Table;
-            this.pictureBox14.Location = new System.Drawing.Point(678, 574);
+            this.pictureBox14.Location = new System.Drawing.Point(678, 614);
             this.pictureBox14.Name = "pictureBox14";
             this.pictureBox14.Size = new System.Drawing.Size(50, 60);
             this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -615,7 +654,7 @@
             // 
             this.pictureBox13.BackgroundImage = global::ProjetMasterChefInfo.Properties.Resources.Flooring_18;
             this.pictureBox13.Image = global::ProjetMasterChefInfo.Properties.Resources.Diviner_Table;
-            this.pictureBox13.Location = new System.Drawing.Point(565, 433);
+            this.pictureBox13.Location = new System.Drawing.Point(565, 495);
             this.pictureBox13.Name = "pictureBox13";
             this.pictureBox13.Size = new System.Drawing.Size(50, 60);
             this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -626,7 +665,7 @@
             // 
             this.pictureBox12.BackgroundImage = global::ProjetMasterChefInfo.Properties.Resources.Flooring_18;
             this.pictureBox12.Image = global::ProjetMasterChefInfo.Properties.Resources.Diviner_Table;
-            this.pictureBox12.Location = new System.Drawing.Point(461, 574);
+            this.pictureBox12.Location = new System.Drawing.Point(455, 614);
             this.pictureBox12.Name = "pictureBox12";
             this.pictureBox12.Size = new System.Drawing.Size(50, 60);
             this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -637,7 +676,7 @@
             // 
             this.pictureBox11.BackgroundImage = global::ProjetMasterChefInfo.Properties.Resources.Flooring_18;
             this.pictureBox11.Image = global::ProjetMasterChefInfo.Properties.Resources.Diviner_Table;
-            this.pictureBox11.Location = new System.Drawing.Point(353, 433);
+            this.pictureBox11.Location = new System.Drawing.Point(353, 495);
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.Size = new System.Drawing.Size(50, 60);
             this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -666,7 +705,7 @@
             // 
             this.pictureBox8.BackgroundImage = global::ProjetMasterChefInfo.Properties.Resources.Flooring_18;
             this.pictureBox8.Image = global::ProjetMasterChefInfo.Properties.Resources._288px_Festive_Dining_Table;
-            this.pictureBox8.Location = new System.Drawing.Point(652, 71);
+            this.pictureBox8.Location = new System.Drawing.Point(662, 319);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(100, 50);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -677,7 +716,7 @@
             // 
             this.pictureBox7.BackgroundImage = global::ProjetMasterChefInfo.Properties.Resources.Flooring_18;
             this.pictureBox7.Image = global::ProjetMasterChefInfo.Properties.Resources._288px_Festive_Dining_Table;
-            this.pictureBox7.Location = new System.Drawing.Point(524, 218);
+            this.pictureBox7.Location = new System.Drawing.Point(339, 319);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(100, 50);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -688,7 +727,7 @@
             // 
             this.pictureBox6.BackgroundImage = global::ProjetMasterChefInfo.Properties.Resources.Flooring_18;
             this.pictureBox6.Image = global::ProjetMasterChefInfo.Properties.Resources._288px_Festive_Dining_Table;
-            this.pictureBox6.Location = new System.Drawing.Point(365, 71);
+            this.pictureBox6.Location = new System.Drawing.Point(515, 205);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(100, 50);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -699,7 +738,7 @@
             // 
             this.pictureBox5.BackgroundImage = global::ProjetMasterChefInfo.Properties.Resources.Flooring_18;
             this.pictureBox5.Image = global::ProjetMasterChefInfo.Properties.Resources._288px_Festive_Dining_Table;
-            this.pictureBox5.Location = new System.Drawing.Point(217, 218);
+            this.pictureBox5.Location = new System.Drawing.Point(170, 201);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(100, 50);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -710,7 +749,7 @@
             // 
             this.pictureBox4.BackgroundImage = global::ProjetMasterChefInfo.Properties.Resources.Flooring_18;
             this.pictureBox4.Image = global::ProjetMasterChefInfo.Properties.Resources._288px_Festive_Dining_Table;
-            this.pictureBox4.Location = new System.Drawing.Point(66, 71);
+            this.pictureBox4.Location = new System.Drawing.Point(37, 319);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(100, 50);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -721,7 +760,7 @@
             // pictureBox3
             // 
             this.pictureBox3.BackgroundImage = global::ProjetMasterChefInfo.Properties.Resources.Flooring_39;
-            this.pictureBox3.Location = new System.Drawing.Point(2, 350);
+            this.pictureBox3.Location = new System.Drawing.Point(2, 429);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(880, 10);
             this.pictureBox3.TabIndex = 2;
@@ -739,17 +778,21 @@
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImage = global::ProjetMasterChefInfo.Properties.Resources.Flooring_18;
-            this.pictureBox1.Location = new System.Drawing.Point(2, 1);
+            this.pictureBox1.Location = new System.Drawing.Point(2, 143);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(880, 718);
+            this.pictureBox1.Size = new System.Drawing.Size(880, 576);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // IRestaurant
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1281, 717);
+            this.Controls.Add(this.pictureBox59);
+            this.Controls.Add(this.pictureBox58);
+            this.Controls.Add(this.pictureBox57);
             this.Controls.Add(this.pictureBox56);
             this.Controls.Add(this.pictureBox55);
             this.Controls.Add(this.pictureBox54);
@@ -809,6 +852,10 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "IRestaurant";
             this.Text = "IRestaurant";
+            this.Load += new System.EventHandler(this.IRestaurant_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox59)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox58)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox57)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox56)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox55)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox54)).EndInit();
@@ -930,5 +977,8 @@
         private System.Windows.Forms.PictureBox pictureBox54;
         private System.Windows.Forms.PictureBox pictureBox55;
         private System.Windows.Forms.PictureBox pictureBox56;
+        private System.Windows.Forms.PictureBox pictureBox57;
+        private System.Windows.Forms.PictureBox pictureBox58;
+        private System.Windows.Forms.PictureBox pictureBox59;
     }
 }

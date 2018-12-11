@@ -130,6 +130,7 @@
     <None Include="Resources\donation1.png" />
     <None Include="Resources\door.png" />
     <None Include="Resources\door2.png" />
+    <None Include="Resources\fast-forward %281%29.png" />
     <Content Include="Resources\Flooring_02.png" />
     <Content Include="Resources\Flooring_021.png" />
     <None Include="Resources\Flooring_0211.png" />
@@ -183,6 +184,7 @@
     <None Include="Resources\pause1.png" />
     <Content Include="Resources\play-button.png" />
     <None Include="Resources\play-button1.png" />
+    <None Include="Resources\settings.png" />
     <Content Include="Resources\snowflake.png" />
     <None Include="Resources\snowflake1.png" />
     <Content Include="Resources\volunteer.png" />
