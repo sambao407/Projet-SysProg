@@ -26,23 +26,32 @@ namespace ProjetMasterChefInfo.Model
         {
             if(cuisinier.state == false)
             {
-                if (cuisinier.commande.stateCommande == 2)
+                if (cuisinier.commande.stateCommande == 2) // si la commande est terminée
                 {
-                    Console.WriteLine("Commande : " + cuisinier.commande.nomcommande + " déjà terminée.");
+                    Console.WriteLine("Commande : " + cuisinier.commande.nom + " déjà terminée.");
                 }
 
-                if (cuisinier.commande.stateCommande == 3)
+                else if (cuisinier.commande.stateCommande == 3) // si la commande est déjà en cours de préparation
                 {
-                    Console.WriteLine("Commande : " + cuisinier.commande.nomcommande + " est déjà en cours.");
+                    Console.WriteLine("Commande : " + cuisinier.commande.nom + " en cours de prépration par l'autre cuisinier.");
                 }
 
-                if (cuisinier.commande.stateCommande == 1) // si la commande est en cours
+                else if (cuisinier.commande.stateCommande == 1) // si la commande est déjà assignée à un cuisinier
                 {
-                    cuisinier.commande.stateCommande = 3; // on met la commande un autre état en cours
-                    Console.WriteLine("Commande : " + cuisinier.commande.nomcommande + " est en cours.");
-                    Thread.Sleep(5000);
-                    Console.WriteLine("Commande : " + cuisinier.commande.nomcommande + " terminée.");
-                    cuisinier.commande.stateCommande = 2; // on met la commande à l'état terminée
+                    cuisinier.commande.stateCommande = 3; // commande en cours de préparation
+                    Console.WriteLine("Commande : " + cuisinier.commande.nom + " est en cours par " + cuisinier.nomcuisinier);                    
+                    Model.CommisCuisine Orlando = new Model.CommisCuisine(1, "Orlando", true);
+
+                    // commis va chercher ingrédient
+                    Thread TEST1 = new Thread(() => Orlando.ChercherIngredient(Orlando, commande));
+
+                    // Commis va éplucher si besoin
+                    Orlando.Eplucher(Orlando, commande);
+
+                    cuisinier.commande.stateCommande = 2; // si la commande est terminée
+                    //Thread.Sleep(5000);
+                    Console.WriteLine("Commande : " + cuisinier.commande.nom + " terminée par " + cuisinier.nomcuisinier);
+                    cuisinier.state = true;
                 }
             }
 
@@ -51,5 +60,6 @@ namespace ProjetMasterChefInfo.Model
                 Console.WriteLine("Aucune commande n'a été assigné au cuisinier : " + cuisinier.nomcuisinier);
             }
         }
+
     }
 }
