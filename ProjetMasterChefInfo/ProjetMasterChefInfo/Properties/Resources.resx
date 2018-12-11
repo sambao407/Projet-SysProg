@@ -118,29 +118,68 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="chef1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\chef11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Winter_End_Table2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Winter_End_Table21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="288px-Festive_Dining_Table1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\288px-Festive_Dining_Table2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Flooring_23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Flooring_231.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Modern_Table1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Modern_Table11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Dining_Chair_(red)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dining_Chair_(red)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="waiter" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\waiter1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="play-button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\play-button1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Modern_Tea-Table1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Modern_Tea-Table2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Flooring_39" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Flooring_391.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winter_End_Table" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Winter_End_Table3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0657c00b43e2a66" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0657c00b43e2a661.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="full-frame-shot-of-red-textured-background_23-2147878490" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\full-frame-shot-of-red-textured-background_23-21478784901.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Flooring_101" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Flooring_1011.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="businessman" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\businessman1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cooker" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cooker1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Winter_End_Table - Copie1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Winter_End_Table - Copie11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="288px-Festive_Dining_Table1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\288px-Festive_Dining_Table2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Flooring_103" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Flooring_1031.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="288px-Festive_Dining_Table" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\288px-Festive_Dining_Table1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="door2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\door2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Flooring_022" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Flooring_0221.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chef1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chef11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grandmother_End_Table" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Grandmother_End_Table1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="waiter (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\waiter (1)2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="food (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\food (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Modern_Tea-Table" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Modern_Tea-Table1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Winter_End_Table - Copie" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Winter_End_Table - Copie2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -148,101 +187,23 @@
   <data name="Flooring_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Flooring_023.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Modern_Tea-Table" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Modern_Tea-Table1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="snowflake" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\snowflake1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="waiter (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\waiter (1)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="0657c00b43e2a66" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\0657c00b43e2a661.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="fridge" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\fridge1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Wallpaper_068" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Wallpaper_0681.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pause" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pause1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Grandmother_End_Table" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Grandmother_End_Table1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="chef" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\chef3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Winter_End_Table" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Winter_End_Table3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Flooring_36" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Flooring_361.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Diviner_Table" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Diviner_Table1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Flooring_101" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Flooring_1011.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Flooring_06" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Flooring_061.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Flooring_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Flooring_141.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="play-button" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\play-button1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Winter_Table1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Winter_Table11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="volunteer" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\volunteer1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="air-hostess" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\air-hostess1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="chef2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\chef21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="head-waiter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\head-waiter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Flooring_022" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Flooring_0221.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="head-waiter (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\head-waiter (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="businessman" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\businessman1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="évier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\évier.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Flooring_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Flooring_111.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="288px-Mahogany_Dining_Table" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\288px-Mahogany_Dining_Table1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Modern_Table" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Modern_Table2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Flooring_23" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Flooring_231.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="full-frame-shot-of-red-textured-background_23-2147878490" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\full-frame-shot-of-red-textured-background_23-21478784901.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Dining_Chair_(red)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Dining_Chair_(red)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Flooring_39" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Flooring_391.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Flooring_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Flooring_104.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Winter_Table" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Winter_Table2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Winter_End_Table2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Winter_End_Table21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Hob" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hob.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Flooring_102" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Flooring_1021.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -250,22 +211,109 @@
   <data name="Flooring_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Flooring_181.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="door" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\door.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="food (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\food (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Flooring_021" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Flooring_0211.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="waiter (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\waiter (1)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Winter_Table - Copie" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Winter_Table - Copie1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="kitchen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kitchen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="waiter1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\waiter2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Modern_Table" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Modern_Table2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Modern_Table1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Modern_Table11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="donation" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\donation1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="food" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\food.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winter_Table - Copie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Winter_Table - Copie1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Flooring_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Flooring_111.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snowflake" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\snowflake1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Diviner_Table" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Diviner_Table1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Flooring_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Flooring_104.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chef2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chef21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="volunteer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\volunteer1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="288px-Mahogany_Dining_Table" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\288px-Mahogany_Dining_Table1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chef" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chef3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Winter_End_Table1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Winter_End_Table11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="door2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\door2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pause" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pause1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Flooring_36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Flooring_361.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cooking (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cooking (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winter_End_Table - Copie1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Winter_End_Table - Copie11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fridge" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fridge1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chef21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chef22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winter_Table" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Winter_Table2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Modern_Tea-Table2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Modern_Tea-Table3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="waiter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\waiter1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="door" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\door.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cooking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cooking.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Flooring_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Flooring_141.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Flooring_021" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Flooring_0211.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Flooring_06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Flooring_061.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winter_Table1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Winter_Table11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="288px-Festive_Dining_Table" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\288px-Festive_Dining_Table1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="breakfast" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\breakfast.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

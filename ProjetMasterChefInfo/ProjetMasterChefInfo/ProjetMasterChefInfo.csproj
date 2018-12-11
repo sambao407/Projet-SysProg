@@ -50,10 +50,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="View\IGraphique.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="View\IGraphique.Designer.cs" />
     <Compile Include="View\IRestaurant.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,13 +91,13 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="View\IGraphique.resx" />
     <EmbeddedResource Include="View\IRestaurant.resx">
       <DependentUpon>IRestaurant.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\0657c00b43e2a66.jpg" />
+    <None Include="Resources\évier.png" />
     <None Include="Resources\Winter_Table11.png" />
     <None Include="Resources\Winter_Table2.png" />
     <None Include="Resources\0657c00b43e2a661.jpg" />
@@ -112,6 +108,7 @@
     <None Include="Resources\288px-Mahogany_Dining_Table1.png" />
     <Content Include="Resources\air-hostess.png" />
     <None Include="Resources\air-hostess1.png" />
+    <None Include="Resources\breakfast.png" />
     <Content Include="Resources\businessman.png" />
     <None Include="Resources\businessman1.png" />
     <Content Include="Resources\chef.png" />
@@ -120,8 +117,11 @@
     <Content Include="Resources\chef2.png" />
     <None Include="Resources\chef3.png" />
     <None Include="Resources\chef21.png" />
+    <None Include="Resources\chef22.png" />
     <Content Include="Resources\cooker.png" />
     <None Include="Resources\cooker1.png" />
+    <None Include="Resources\cooking.png" />
+    <None Include="Resources\cooking %281%29.png" />
     <Content Include="Resources\Dining_Chair_%28red%29.png" />
     <None Include="Resources\Dining_Chair_%28red%291.png" />
     <Content Include="Resources\Diviner_Table.png" />
@@ -158,18 +158,27 @@
     <None Include="Resources\Flooring_361.png" />
     <Content Include="Resources\Flooring_39.png" />
     <None Include="Resources\Flooring_391.png" />
+    <None Include="Resources\food.png" />
+    <None Include="Resources\food %281%29.png" />
+    <None Include="Resources\food %282%29.png" />
     <Content Include="Resources\fridge.png" />
     <None Include="Resources\fridge1.png" />
     <Content Include="Resources\full-frame-shot-of-red-textured-background_23-2147878490.jpg" />
     <None Include="Resources\full-frame-shot-of-red-textured-background_23-21478784901.jpg" />
     <Content Include="Resources\Grandmother_End_Table.png" />
     <None Include="Resources\Grandmother_End_Table1.png" />
+    <None Include="Resources\Hob.png" />
+    <None Include="Resources\kitchen.png" />
+    <None Include="Resources\head-waiter.png" />
+    <None Include="Resources\head-waiter %281%29.png" />
     <Content Include="Resources\Modern_Table.png" />
     <Content Include="Resources\Modern_Table1.png" />
     <None Include="Resources\Modern_Table2.png" />
     <None Include="Resources\Modern_Table11.png" />
     <Content Include="Resources\Modern_Tea-Table.png" />
     <None Include="Resources\Modern_Tea-Table1.png" />
+    <None Include="Resources\Modern_Tea-Table2.png" />
+    <None Include="Resources\Modern_Tea-Table3.png" />
     <Content Include="Resources\pause.png" />
     <None Include="Resources\pause1.png" />
     <Content Include="Resources\play-button.png" />
@@ -180,8 +189,10 @@
     <None Include="Resources\volunteer1.png" />
     <Content Include="Resources\waiter %281%29.png" />
     <None Include="Resources\waiter %281%291.png" />
+    <None Include="Resources\waiter %281%292.png" />
     <Content Include="Resources\waiter.png" />
     <None Include="Resources\waiter1.png" />
+    <None Include="Resources\waiter2.png" />
     <Content Include="Resources\Wallpaper_068.png" />
     <None Include="Resources\Wallpaper_0681.png" />
     <Content Include="Resources\Winter_End_Table - Copie.png" />
