@@ -10,8 +10,8 @@ namespace ProjetMasterChefInfo
     public class KerimLauncher
     {
 
-        public static void Main()
-        {
+     //   public static void Main()
+    //    {
 
            // Model.ChefCuisine ChefCuisineRudy = new Model.ChefCuisine(1, "ChefCuisineRudy", true);
            // Model.Commande Commande1 = new Model.Commande(1, 0, "Kebab", 5);
@@ -35,6 +35,6 @@ namespace ProjetMasterChefInfo
            // Console.ReadLine();
 
 
-        }
+  //      }
     }
 }
