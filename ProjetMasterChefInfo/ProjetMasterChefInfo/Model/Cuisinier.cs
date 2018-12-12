@@ -43,13 +43,13 @@ namespace ProjetMasterChefInfo.Model
                     Model.CommisCuisine Orlando = new Model.CommisCuisine(1, "Orlando", true);
 
                     // commis va chercher ingrédient
-                    Thread TEST1 = new Thread(() => Orlando.ChercherIngredient(Orlando, commande));
+                    Orlando.ChercherIngredient(Orlando, commande);
 
                     // Commis va éplucher si besoin
                     Orlando.Eplucher(Orlando, commande);
 
                     cuisinier.commande.stateCommande = 2; // si la commande est terminée
-                    //Thread.Sleep(5000);
+                    Thread.Sleep(5000);
                     Console.WriteLine("Commande : " + cuisinier.commande.nom + " terminée par " + cuisinier.nomcuisinier);
                     cuisinier.state = true;
                 }
