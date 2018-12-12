@@ -59,8 +59,14 @@ namespace ProjetMasterChefInfo.Model
             if (commande.stateCommande == 3) // si la commande est déjà en cours de préparation
             {
                 commisCuisine.state = false;
+
+                /*if (commande.composant1)
+                {
+                    
+                }*/
+
                 Console.WriteLine("Le commis va chercher les ingrédients.");
-                // requête SQL
+                Thread.Sleep(2000);
                 commisCuisine.state = true;
             }
 
