@@ -81,7 +81,6 @@
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
@@ -90,6 +89,25 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.ChangeInterval = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.pictureBox60 = new System.Windows.Forms.PictureBox();
+            this.pictureBox61 = new System.Windows.Forms.PictureBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.textBox7 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox59)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox58)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox57)).BeginInit();
@@ -140,7 +158,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -149,13 +166,16 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox60)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox61)).BeginInit();
             this.SuspendLayout();
             // 
             // Timer
             // 
             this.Timer.AutoSize = true;
             this.Timer.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Timer.Location = new System.Drawing.Point(0, 5);
+            this.Timer.Location = new System.Drawing.Point(0, 1);
             this.Timer.Name = "Timer";
             this.Timer.Size = new System.Drawing.Size(76, 29);
             this.Timer.TabIndex = 58;
@@ -171,7 +191,7 @@
             this.pictureBox59.Image = global::ProjetMasterChefInfo.Properties.Resources.settings;
             this.pictureBox59.Location = new System.Drawing.Point(76, -1);
             this.pictureBox59.Name = "pictureBox59";
-            this.pictureBox59.Size = new System.Drawing.Size(35, 35);
+            this.pictureBox59.Size = new System.Drawing.Size(30, 30);
             this.pictureBox59.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox59.TabIndex = 64;
             this.pictureBox59.TabStop = false;
@@ -182,7 +202,7 @@
             this.pictureBox58.Image = global::ProjetMasterChefInfo.Properties.Resources.fast_forward__1_;
             this.pictureBox58.Location = new System.Drawing.Point(199, -1);
             this.pictureBox58.Name = "pictureBox58";
-            this.pictureBox58.Size = new System.Drawing.Size(35, 35);
+            this.pictureBox58.Size = new System.Drawing.Size(30, 30);
             this.pictureBox58.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox58.TabIndex = 63;
             this.pictureBox58.TabStop = false;
@@ -193,7 +213,7 @@
             this.pictureBox57.BackgroundImage = global::ProjetMasterChefInfo.Properties.Resources.Flooring_11;
             this.pictureBox57.Location = new System.Drawing.Point(-6, 143);
             this.pictureBox57.Name = "pictureBox57";
-            this.pictureBox57.Size = new System.Drawing.Size(875, 18);
+            this.pictureBox57.Size = new System.Drawing.Size(1286, 20);
             this.pictureBox57.TabIndex = 62;
             this.pictureBox57.TabStop = false;
             // 
@@ -232,7 +252,7 @@
             this.pictureBox53.Image = global::ProjetMasterChefInfo.Properties.Resources.play_button;
             this.pictureBox53.Location = new System.Drawing.Point(158, -1);
             this.pictureBox53.Name = "pictureBox53";
-            this.pictureBox53.Size = new System.Drawing.Size(35, 35);
+            this.pictureBox53.Size = new System.Drawing.Size(30, 30);
             this.pictureBox53.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox53.TabIndex = 57;
             this.pictureBox53.TabStop = false;
@@ -243,7 +263,7 @@
             this.pictureBox52.Image = global::ProjetMasterChefInfo.Properties.Resources.pause;
             this.pictureBox52.Location = new System.Drawing.Point(117, -1);
             this.pictureBox52.Name = "pictureBox52";
-            this.pictureBox52.Size = new System.Drawing.Size(35, 35);
+            this.pictureBox52.Size = new System.Drawing.Size(30, 30);
             this.pictureBox52.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox52.TabIndex = 56;
             this.pictureBox52.TabStop = false;
@@ -253,7 +273,7 @@
             // 
             this.pictureBox51.BackgroundImage = global::ProjetMasterChefInfo.Properties.Resources.Flooring_23;
             this.pictureBox51.Image = global::ProjetMasterChefInfo.Properties.Resources.cooking__1_;
-            this.pictureBox51.Location = new System.Drawing.Point(1135, 64);
+            this.pictureBox51.Location = new System.Drawing.Point(1205, 237);
             this.pictureBox51.Name = "pictureBox51";
             this.pictureBox51.Size = new System.Drawing.Size(64, 64);
             this.pictureBox51.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -375,9 +395,9 @@
             // pictureBox41
             // 
             this.pictureBox41.Image = global::ProjetMasterChefInfo.Properties.Resources.Winter_Table1;
-            this.pictureBox41.Location = new System.Drawing.Point(1086, 1);
+            this.pictureBox41.Location = new System.Drawing.Point(1037, 161);
             this.pictureBox41.Name = "pictureBox41";
-            this.pictureBox41.Size = new System.Drawing.Size(51, 68);
+            this.pictureBox41.Size = new System.Drawing.Size(51, 52);
             this.pictureBox41.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox41.TabIndex = 45;
             this.pictureBox41.TabStop = false;
@@ -385,9 +405,9 @@
             // pictureBox40
             // 
             this.pictureBox40.Image = global::ProjetMasterChefInfo.Properties.Resources.Winter_Table1;
-            this.pictureBox40.Location = new System.Drawing.Point(1036, 1);
+            this.pictureBox40.Location = new System.Drawing.Point(990, 161);
             this.pictureBox40.Name = "pictureBox40";
-            this.pictureBox40.Size = new System.Drawing.Size(51, 68);
+            this.pictureBox40.Size = new System.Drawing.Size(51, 52);
             this.pictureBox40.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox40.TabIndex = 44;
             this.pictureBox40.TabStop = false;
@@ -395,7 +415,7 @@
             // pictureBox39
             // 
             this.pictureBox39.Image = global::ProjetMasterChefInfo.Properties.Resources.Winter_Table1;
-            this.pictureBox39.Location = new System.Drawing.Point(985, 1);
+            this.pictureBox39.Location = new System.Drawing.Point(888, 428);
             this.pictureBox39.Name = "pictureBox39";
             this.pictureBox39.Size = new System.Drawing.Size(51, 68);
             this.pictureBox39.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -405,7 +425,7 @@
             // pictureBox38
             // 
             this.pictureBox38.Image = global::ProjetMasterChefInfo.Properties.Resources.Winter_Table1;
-            this.pictureBox38.Location = new System.Drawing.Point(934, 1);
+            this.pictureBox38.Location = new System.Drawing.Point(888, 472);
             this.pictureBox38.Name = "pictureBox38";
             this.pictureBox38.Size = new System.Drawing.Size(51, 68);
             this.pictureBox38.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -416,7 +436,7 @@
             // 
             this.pictureBox37.BackgroundImage = global::ProjetMasterChefInfo.Properties.Resources.Flooring_23;
             this.pictureBox37.Image = global::ProjetMasterChefInfo.Properties.Resources.cooking;
-            this.pictureBox37.Location = new System.Drawing.Point(1167, 290);
+            this.pictureBox37.Location = new System.Drawing.Point(1157, 358);
             this.pictureBox37.Name = "pictureBox37";
             this.pictureBox37.Size = new System.Drawing.Size(64, 64);
             this.pictureBox37.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -427,7 +447,7 @@
             // 
             this.pictureBox36.BackgroundImage = global::ProjetMasterChefInfo.Properties.Resources.Flooring_23;
             this.pictureBox36.Image = global::ProjetMasterChefInfo.Properties.Resources.cooking;
-            this.pictureBox36.Location = new System.Drawing.Point(1167, 161);
+            this.pictureBox36.Location = new System.Drawing.Point(1157, 453);
             this.pictureBox36.Name = "pictureBox36";
             this.pictureBox36.Size = new System.Drawing.Size(64, 64);
             this.pictureBox36.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -438,7 +458,7 @@
             // 
             this.pictureBox35.BackgroundImage = global::ProjetMasterChefInfo.Properties.Resources.Flooring_23;
             this.pictureBox35.Image = global::ProjetMasterChefInfo.Properties.Resources.chef21;
-            this.pictureBox35.Location = new System.Drawing.Point(943, 256);
+            this.pictureBox35.Location = new System.Drawing.Point(977, 405);
             this.pictureBox35.Name = "pictureBox35";
             this.pictureBox35.Size = new System.Drawing.Size(64, 64);
             this.pictureBox35.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -458,9 +478,9 @@
             // 
             this.pictureBox33.BackgroundImage = global::ProjetMasterChefInfo.Properties.Resources.Flooring_23;
             this.pictureBox33.Image = global::ProjetMasterChefInfo.Properties.Resources.kitchen;
-            this.pictureBox33.Location = new System.Drawing.Point(1133, 1);
+            this.pictureBox33.Location = new System.Drawing.Point(1190, 161);
             this.pictureBox33.Name = "pictureBox33";
-            this.pictureBox33.Size = new System.Drawing.Size(90, 68);
+            this.pictureBox33.Size = new System.Drawing.Size(90, 64);
             this.pictureBox33.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox33.TabIndex = 37;
             this.pictureBox33.TabStop = false;
@@ -469,7 +489,7 @@
             // pictureBox30
             // 
             this.pictureBox30.Image = global::ProjetMasterChefInfo.Properties.Resources.Hob;
-            this.pictureBox30.Location = new System.Drawing.Point(1071, 143);
+            this.pictureBox30.Location = new System.Drawing.Point(1137, 161);
             this.pictureBox30.Name = "pictureBox30";
             this.pictureBox30.Size = new System.Drawing.Size(50, 52);
             this.pictureBox30.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -479,7 +499,7 @@
             // pictureBox29
             // 
             this.pictureBox29.Image = global::ProjetMasterChefInfo.Properties.Resources.Winter_Table1;
-            this.pictureBox29.Location = new System.Drawing.Point(1070, 330);
+            this.pictureBox29.Location = new System.Drawing.Point(1070, 453);
             this.pictureBox29.Name = "pictureBox29";
             this.pictureBox29.Size = new System.Drawing.Size(51, 72);
             this.pictureBox29.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -489,7 +509,7 @@
             // pictureBox28
             // 
             this.pictureBox28.Image = global::ProjetMasterChefInfo.Properties.Resources.Winter_Table1;
-            this.pictureBox28.Location = new System.Drawing.Point(1070, 283);
+            this.pictureBox28.Location = new System.Drawing.Point(1070, 405);
             this.pictureBox28.Name = "pictureBox28";
             this.pictureBox28.Size = new System.Drawing.Size(51, 72);
             this.pictureBox28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -499,7 +519,7 @@
             // pictureBox27
             // 
             this.pictureBox27.Image = global::ProjetMasterChefInfo.Properties.Resources.Winter_Table1;
-            this.pictureBox27.Location = new System.Drawing.Point(1070, 237);
+            this.pictureBox27.Location = new System.Drawing.Point(1070, 358);
             this.pictureBox27.Name = "pictureBox27";
             this.pictureBox27.Size = new System.Drawing.Size(51, 72);
             this.pictureBox27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -509,7 +529,7 @@
             // pictureBox26
             // 
             this.pictureBox26.Image = global::ProjetMasterChefInfo.Properties.Resources.Winter_Table1;
-            this.pictureBox26.Location = new System.Drawing.Point(1070, 191);
+            this.pictureBox26.Location = new System.Drawing.Point(1069, 311);
             this.pictureBox26.Name = "pictureBox26";
             this.pictureBox26.Size = new System.Drawing.Size(51, 72);
             this.pictureBox26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -521,7 +541,7 @@
             // 
             this.pictureBox32.BackgroundImage = global::ProjetMasterChefInfo.Properties.Resources.Flooring_23;
             this.pictureBox32.Image = global::ProjetMasterChefInfo.Properties.Resources.snowflake;
-            this.pictureBox32.Location = new System.Drawing.Point(1167, 577);
+            this.pictureBox32.Location = new System.Drawing.Point(1167, 638);
             this.pictureBox32.Name = "pictureBox32";
             this.pictureBox32.Size = new System.Drawing.Size(65, 67);
             this.pictureBox32.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -532,7 +552,7 @@
             // 
             this.pictureBox31.BackgroundImage = global::ProjetMasterChefInfo.Properties.Resources.Flooring_23;
             this.pictureBox31.Image = global::ProjetMasterChefInfo.Properties.Resources.donation;
-            this.pictureBox31.Location = new System.Drawing.Point(943, 577);
+            this.pictureBox31.Location = new System.Drawing.Point(943, 636);
             this.pictureBox31.Name = "pictureBox31";
             this.pictureBox31.Size = new System.Drawing.Size(72, 60);
             this.pictureBox31.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -542,7 +562,7 @@
             // pictureBox25
             // 
             this.pictureBox25.Image = global::ProjetMasterChefInfo.Properties.Resources.door2;
-            this.pictureBox25.Location = new System.Drawing.Point(1114, 512);
+            this.pictureBox25.Location = new System.Drawing.Point(1114, 584);
             this.pictureBox25.Name = "pictureBox25";
             this.pictureBox25.Size = new System.Drawing.Size(23, 43);
             this.pictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -552,7 +572,7 @@
             // pictureBox24
             // 
             this.pictureBox24.Image = global::ProjetMasterChefInfo.Properties.Resources.door2;
-            this.pictureBox24.Location = new System.Drawing.Point(1070, 512);
+            this.pictureBox24.Location = new System.Drawing.Point(1070, 584);
             this.pictureBox24.Name = "pictureBox24";
             this.pictureBox24.Size = new System.Drawing.Size(23, 43);
             this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -562,7 +582,7 @@
             // pictureBox23
             // 
             this.pictureBox23.BackgroundImage = global::ProjetMasterChefInfo.Properties.Resources.Flooring_11;
-            this.pictureBox23.Location = new System.Drawing.Point(1137, 512);
+            this.pictureBox23.Location = new System.Drawing.Point(1137, 600);
             this.pictureBox23.Name = "pictureBox23";
             this.pictureBox23.Size = new System.Drawing.Size(169, 13);
             this.pictureBox23.TabIndex = 22;
@@ -571,16 +591,16 @@
             // pictureBox22
             // 
             this.pictureBox22.BackgroundImage = global::ProjetMasterChefInfo.Properties.Resources.Flooring_11;
-            this.pictureBox22.Location = new System.Drawing.Point(1093, 512);
+            this.pictureBox22.Location = new System.Drawing.Point(1093, 599);
             this.pictureBox22.Name = "pictureBox22";
-            this.pictureBox22.Size = new System.Drawing.Size(22, 207);
+            this.pictureBox22.Size = new System.Drawing.Size(22, 146);
             this.pictureBox22.TabIndex = 21;
             this.pictureBox22.TabStop = false;
             // 
             // pictureBox21
             // 
             this.pictureBox21.BackgroundImage = global::ProjetMasterChefInfo.Properties.Resources.Flooring_11;
-            this.pictureBox21.Location = new System.Drawing.Point(888, 512);
+            this.pictureBox21.Location = new System.Drawing.Point(879, 600);
             this.pictureBox21.Name = "pictureBox21";
             this.pictureBox21.Size = new System.Drawing.Size(199, 13);
             this.pictureBox21.TabIndex = 20;
@@ -590,7 +610,7 @@
             // 
             this.pictureBox20.BackgroundImage = global::ProjetMasterChefInfo.Properties.Resources.Flooring_23;
             this.pictureBox20.Image = global::ProjetMasterChefInfo.Properties.Resources.fridge;
-            this.pictureBox20.Location = new System.Drawing.Point(1231, 416);
+            this.pictureBox20.Location = new System.Drawing.Point(1231, 536);
             this.pictureBox20.Name = "pictureBox20";
             this.pictureBox20.Size = new System.Drawing.Size(64, 64);
             this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -692,15 +712,6 @@
             this.pictureBox10.TabIndex = 9;
             this.pictureBox10.TabStop = false;
             // 
-            // pictureBox9
-            // 
-            this.pictureBox9.BackgroundImage = global::ProjetMasterChefInfo.Properties.Resources.Flooring_11;
-            this.pictureBox9.Location = new System.Drawing.Point(869, 1);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(22, 163);
-            this.pictureBox9.TabIndex = 8;
-            this.pictureBox9.TabStop = false;
-            // 
             // pictureBox8
             // 
             this.pictureBox8.BackgroundImage = global::ProjetMasterChefInfo.Properties.Resources.Flooring_18;
@@ -769,9 +780,9 @@
             // pictureBox2
             // 
             this.pictureBox2.BackgroundImage = global::ProjetMasterChefInfo.Properties.Resources.Flooring_23;
-            this.pictureBox2.Location = new System.Drawing.Point(879, 1);
+            this.pictureBox2.Location = new System.Drawing.Point(879, 143);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(410, 718);
+            this.pictureBox2.Size = new System.Drawing.Size(410, 576);
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
             // 
@@ -785,11 +796,208 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
+            // ChangeInterval
+            // 
+            this.ChangeInterval.BackColor = System.Drawing.SystemColors.Window;
+            this.ChangeInterval.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ChangeInterval.Location = new System.Drawing.Point(139, 46);
+            this.ChangeInterval.Name = "ChangeInterval";
+            this.ChangeInterval.Size = new System.Drawing.Size(69, 22);
+            this.ChangeInterval.TabIndex = 65;
+            this.ChangeInterval.Text = "1000";
+            this.ChangeInterval.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.ChangeInterval.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(-2, 49);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(135, 20);
+            this.label1.TabIndex = 66;
+            this.label1.Text = "Change Interval :";
+            this.label1.Click += new System.EventHandler(this.label1_Click_1);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(699, 84);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(108, 20);
+            this.label2.TabIndex = 67;
+            this.label2.Text = "State waiter :";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(369, 11);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(150, 20);
+            this.label3.TabIndex = 68;
+            this.label3.Text = "State chef cooker :";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(369, 49);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(113, 20);
+            this.label4.TabIndex = 69;
+            this.label4.Text = "State cooker :";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(369, 84);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(127, 20);
+            this.label5.TabIndex = 70;
+            this.label5.Text = "State plongeur :";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(699, 46);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(154, 20);
+            this.label6.TabIndex = 71;
+            this.label6.Text = "State head waiter  :";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(699, 9);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(105, 20);
+            this.label7.TabIndex = 72;
+            this.label7.Text = "State butler :";
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Image = global::ProjetMasterChefInfo.Properties.Resources.Hob;
+            this.pictureBox9.Location = new System.Drawing.Point(1087, 161);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(50, 52);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox9.TabIndex = 73;
+            this.pictureBox9.TabStop = false;
+            // 
+            // pictureBox60
+            // 
+            this.pictureBox60.Image = global::ProjetMasterChefInfo.Properties.Resources.Winter_Table1;
+            this.pictureBox60.Location = new System.Drawing.Point(888, 381);
+            this.pictureBox60.Name = "pictureBox60";
+            this.pictureBox60.Size = new System.Drawing.Size(51, 68);
+            this.pictureBox60.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox60.TabIndex = 74;
+            this.pictureBox60.TabStop = false;
+            // 
+            // pictureBox61
+            // 
+            this.pictureBox61.Image = global::ProjetMasterChefInfo.Properties.Resources.Winter_Table1;
+            this.pictureBox61.Location = new System.Drawing.Point(888, 335);
+            this.pictureBox61.Name = "pictureBox61";
+            this.pictureBox61.Size = new System.Drawing.Size(51, 68);
+            this.pictureBox61.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox61.TabIndex = 75;
+            this.pictureBox61.TabStop = false;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(529, 12);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 22);
+            this.textBox1.TabIndex = 76;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(529, 49);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(100, 22);
+            this.textBox2.TabIndex = 77;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(529, 84);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(100, 22);
+            this.textBox3.TabIndex = 78;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(869, 12);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(100, 22);
+            this.textBox4.TabIndex = 79;
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(869, 49);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(100, 22);
+            this.textBox5.TabIndex = 80;
+            // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(869, 84);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(100, 22);
+            this.textBox6.TabIndex = 81;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(-2, 86);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(116, 20);
+            this.label8.TabIndex = 82;
+            this.label8.Text = "Post quantity :";
+            this.label8.Click += new System.EventHandler(this.label8_Click);
+            // 
+            // textBox7
+            // 
+            this.textBox7.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.textBox7.Location = new System.Drawing.Point(139, 86);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(100, 22);
+            this.textBox7.TabIndex = 83;
+            this.textBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.textBox7.TextChanged += new System.EventHandler(this.textBox7_TextChanged);
+            // 
             // IRestaurant
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1281, 717);
+            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.pictureBox38);
+            this.Controls.Add(this.pictureBox39);
+            this.Controls.Add(this.pictureBox60);
+            this.Controls.Add(this.pictureBox61);
+            this.Controls.Add(this.pictureBox9);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.ChangeInterval);
             this.Controls.Add(this.pictureBox59);
             this.Controls.Add(this.pictureBox58);
             this.Controls.Add(this.pictureBox57);
@@ -812,8 +1020,6 @@
             this.Controls.Add(this.pictureBox42);
             this.Controls.Add(this.pictureBox41);
             this.Controls.Add(this.pictureBox40);
-            this.Controls.Add(this.pictureBox39);
-            this.Controls.Add(this.pictureBox38);
             this.Controls.Add(this.pictureBox37);
             this.Controls.Add(this.pictureBox36);
             this.Controls.Add(this.pictureBox35);
@@ -841,7 +1047,6 @@
             this.Controls.Add(this.pictureBox12);
             this.Controls.Add(this.pictureBox11);
             this.Controls.Add(this.pictureBox10);
-            this.Controls.Add(this.pictureBox9);
             this.Controls.Add(this.pictureBox8);
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.pictureBox6);
@@ -850,6 +1055,7 @@
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
+            this.ForeColor = System.Drawing.Color.Black;
             this.Name = "IRestaurant";
             this.Text = "IRestaurant";
             this.Load += new System.EventHandler(this.IRestaurant_Load);
@@ -903,7 +1109,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
@@ -912,6 +1117,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox60)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox61)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -927,7 +1135,6 @@
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.PictureBox pictureBox8;
-        private System.Windows.Forms.PictureBox pictureBox9;
         private System.Windows.Forms.PictureBox pictureBox10;
         private System.Windows.Forms.PictureBox pictureBox11;
         private System.Windows.Forms.PictureBox pictureBox12;
@@ -980,5 +1187,24 @@
         private System.Windows.Forms.PictureBox pictureBox57;
         private System.Windows.Forms.PictureBox pictureBox58;
         private System.Windows.Forms.PictureBox pictureBox59;
+        private System.Windows.Forms.TextBox ChangeInterval;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.PictureBox pictureBox9;
+        private System.Windows.Forms.PictureBox pictureBox60;
+        private System.Windows.Forms.PictureBox pictureBox61;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox textBox7;
     }
 }

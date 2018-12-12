@@ -36,25 +36,33 @@ namespace ProjetMasterChefInfo.View
         {
 
         }
-        int sec = 0;
-        int min = 0;
-        int hour = 10;
 
+        int sec = 00;
+        int min = 00;
+        int hour = 10;
+        
         private void timer1_Tick(object sender, EventArgs e)
         {
-
-            sec++;
-            Timer.Text = "" + hour + " " + ":" + " " + min;
+            if (min < 10)
+            {
+                sec++;
+                Timer.Text = "" + hour + " " + ":" + "0" + min;
+            }
+            else
+            {
+                sec++;
+                Timer.Text = "" + hour + " " + ":" + "" + min;
+            }
             if (sec >= 59)
             {
                 min++;
-                sec = 0;
+                sec = 00;
                 Timer.Text = "" + hour + "" + ":" + "" + min;
             }
             if (min >= 59)
             {
                 hour++;
-                min = 0;
+                min = 00;
                 Timer.Text = "" + hour + "" + ":" + "" + min;
             }
             else if (hour == 24)
@@ -63,10 +71,13 @@ namespace ProjetMasterChefInfo.View
             }
         }
 
+
         private void pictureBox53_Click(object sender, EventArgs e)
         {
             timer1.Start();
-            timer1.Interval = 1000;
+            int interval = Convert.ToInt32(ChangeInterval.Text);
+            timer1.Interval = interval;
+
         }
 
         private void pictureBox52_Click(object sender, EventArgs e)
@@ -76,17 +87,16 @@ namespace ProjetMasterChefInfo.View
 
         private void IRestaurant_Load(object sender, EventArgs e)
         {
-
         }
 
         private void pictureBox49_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-         
+
         }
 
         private void pictureBox46_Click(object sender, EventArgs e)
@@ -102,10 +112,31 @@ namespace ProjetMasterChefInfo.View
 
         private void pictureBox59_Click(object sender, EventArgs e)
         {
-            timer1.Stop();
             sec = 0;
-            min = 0;
+            min = 00;
             hour = 10;
+            timer1.Stop();
+            
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox7_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
