@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProjetMasterChefInfo.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +11,7 @@ namespace ProjetMasterChefInfo
     public class KerimLauncher
     {
 
-        public static void Main()
+        /*public static void Main()
         {
 
             //  Model.ChefCuisine ChefCuisineRudy = new Model.ChefCuisine(1, "ChefCuisineRudy", true);
@@ -18,12 +19,16 @@ namespace ProjetMasterChefInfo
 
             // Model.Cuisinier CuisinierKerim = new Model.Cuisinier(1, "Kerim", true, null);
             // Model.Cuisinier CuisinierOrlando = new Model.Cuisinier(1, "Orlando", true, null);
-
-           // Model.Recette Hamburger = new Model.Recette(1, "Hamburger", "Pain Hmburger", "Steack Haché", "Salade", "Tomate");
-           // Model.Recette Lasagne = new Model.Recette(2, "Lasagne", "Pate lasagne", "Oignon", "Steack haché", "Oignon");
-           //Model.Recette Cari_De_Poulet = new Model.Recette(3, "Cari de poulet", "Poulet", "Oignon", "Tomates", "Gingembre");
+            
+          
+            //Model.Recette Hamburger = new Model.Recette(1, "Hamburger", "Pain Hmburger", "Steack Haché", "Salade", "Tomate");
+            //Model.Recette Lasagne = new Model.Recette(2, "Lasagne", "Pate lasagne", "Oignon", "Steack haché", "Oignon");
+            //Model.Recette Cari_De_Poulet = new Model.Recette(3, "Cari de poulet", "Poulet", "Oignon", "Tomates", "Gingembre");
             //Model.Recette Gaspacho = new Model.Recette(4, "Gaspacho", "Tomates", "Concombre", "Ail", "Oignon");
             //Model.Recette Salade_Chevre_Chaud = new Model.Recette(5, "Salade chêvre chaud", "Salade", "Chèvres chaud", "Pain", "Tomates");
+
+
+
             //Model.Recette Muffin = new Model.Recette(6, "Muffin", "Jambon", "Fromage", "Farine", "Yaourt nature");
             //Model.Recette Mousse_Au_Chocolat = new Model.Recette(7, "Mousse au chocolat", "Chocolat", "Beurre", "Oeuf", "Sucre");
             //Model.Recette Salade_De_Fruit = new Model.Recette(8, "Salade de fruit", "Poire", "Pomme", "Cerise", "Orange");
@@ -35,9 +40,12 @@ namespace ProjetMasterChefInfo
             //CuisinierOrlando.Cuisiner(CuisinierOrlando, Commande1);
 
             //Model.Stock Stock = new Model.Stock("StockIngredient");
-            //Console.ReadLine();
+            /*String[] myIngredient = { "Ail", "Tomate", "Pain", "Salade" };
+            Model.Recette.UseParam(myIngredient);
+            Model.Recette Hamburger = new Model.Recette(1, "Hamburger", myIngredient);
+            Console.ReadLine();/*
 
 
-        }
+        }*/
     }
 }

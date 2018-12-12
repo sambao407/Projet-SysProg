@@ -9,12 +9,8 @@ namespace ProjetMasterChefInfo
 {
     class Program
     {
-       /* static void Main(string[] args)
-        {
-            TestConnexion p = new TestConnexion();
-            p.connect();
-            Console.ReadLine();
-            
-        }*/
+       
+
+
     }
 }
