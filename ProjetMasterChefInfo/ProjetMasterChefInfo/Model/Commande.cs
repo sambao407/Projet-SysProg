@@ -10,15 +10,22 @@ namespace ProjetMasterChefInfo.Model
     {
         public int id { get; set; }
         public int stateCommande { get; set; }
-        public string nomcommande { get; set; }
-        public int prix { get; set; }
+        public string nom;
+        public Recette recette;
+        public string composant1;
+        public string composant2;
+        public string composant3;
+        public string composant4;
 
-        public Commande(int id, int stateCommande, string nomcommande, int prix)
+        public Commande(int id, int stateCommande, Recette recette)
         {
             this.id = id;
             this.stateCommande = stateCommande;
-            this.nomcommande = nomcommande;
-            this.prix = prix;
+            this.nom = recette.nom;
+            this.composant1 = recette.composant_1;
+            this.composant2 = recette.composant_2;
+            this.composant3 = recette.composant_3;
+            this.composant4 = recette.composant_4;
         }
 
 

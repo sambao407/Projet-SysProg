@@ -25,17 +25,17 @@ namespace ProjetMasterChefInfo.Model
         {
             if (cuisinier.state == true) // si le cuisinier est prêt
             {
-                if (commande.stateCommande == 0) // si la commande prise en compte mais pas assignée à un cuisinier
+                if (commande.stateCommande == 0) // si la commande n'est pas pas assignée
                 {
                     cuisinier.commande = commande;
                     cuisinier.state = false;
                     commande.stateCommande = 1; // commande assignée à un cuisinier 
-                    Console.WriteLine("Commande " + cuisinier.commande.nomcommande + " prise en compte par " + cuisinier.nomcuisinier);
+                    Console.WriteLine("Commande " + cuisinier.commande.nom + " prise en compte par " + cuisinier.nomcuisinier);
                 }
 
                 else if (commande.stateCommande == 1) // si la commande est déjà assignée à un cuisinier
                 {
-                    Console.WriteLine("Commande en attente d'être preparée par l'autre cuisinier.");
+                    Console.WriteLine("Commande déjà assignée à un autre cuisinier.");
                 }
 
                 else if (commande.stateCommande == 2) // si la commande est terminée
@@ -43,27 +43,32 @@ namespace ProjetMasterChefInfo.Model
                     Console.WriteLine("Commande terminée.");
                 }
 
+                else if (commande.stateCommande == 3) // si la commande est déjà en cours de préparation
+                {
+                    Console.WriteLine("La commande que vous voulez assigner est déjà assignée et en cours de préparation.");
+
+                }
+
+                else // si le cuisinier est occupé
+                {
+                    Console.WriteLine("Cuisinier " + cuisinier.nomcuisinier + " est occupé.");
+                }
             }
 
-            else // si le cuisinier est occupé
-            {
-                Console.WriteLine("Cuisinier " + cuisinier.nomcuisinier + " est occupé.");
-            }
-        }
-
-        public void CheckerStock(Stock stock)
-        {
-            // Avec QuantiteIngredient = SELECT Quantité FROM Ingredient WHERE Quantité < 20 // 
-            //if (QuantiteIngredient < 20)
-           // {
+            // public void CheckerStock(Stock stock)
+            //{
+                // Avec QuantiteIngredient = SELECT Quantité FROM Ingredient WHERE Quantité < 20 // 
+                //if (QuantiteIngredient < 20)
+                // {
                 // Avec NomIngredient = SELECT Nom_Ingredient FROM Ingredient WHERE Quantite < 20// 
-           //     Console.WriteLine("Il manque : " + stock.NomIngredient);
-           // }
-          //  else
-          //  {
-           //     Console.WriteLine("Il ne manque aucun ingrédient.");
-           // }
-        }
+                //     Console.WriteLine("Il manque : " + stock.NomIngredient);
+                // }
+                //  else
+                //  {
+                //     Console.WriteLine("Il ne manque aucun ingrédient.");
+                // }
+            //  }
 
+        }
     }
 }

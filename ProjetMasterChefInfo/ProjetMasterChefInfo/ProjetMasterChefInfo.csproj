@@ -35,6 +35,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -43,6 +45,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="View\IRestaurant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\IRestaurant.Designer.cs">
+      <DependentUpon>IRestaurant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VincentLauncher.cs" />
     <Compile Include="DidierLauncher.cs" />
     <Compile Include="KerimLauncher.cs" />
     <Compile Include="MarcLauncher.cs" />
@@ -57,7 +71,6 @@
     <Compile Include="Model\Fournisseur.cs" />
     <Compile Include="Model\MaitreHotel.cs" />
     <Compile Include="Model\Materiel.cs" />
-    <Compile Include="Model\Orders.cs" />
     <Compile Include="Model\PlatConcret.cs" />
     <Compile Include="Model\Plongeur.cs" />
     <Compile Include="Model\Recette.cs" />
@@ -73,7 +86,132 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controler\" />
-    <Folder Include="View\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\IRestaurant.resx">
+      <DependentUpon>IRestaurant.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\0657c00b43e2a66.jpg" />
+    <None Include="Resources\évier.png" />
+    <None Include="Resources\Winter_Table11.png" />
+    <None Include="Resources\Winter_Table2.png" />
+    <None Include="Resources\0657c00b43e2a661.jpg" />
+    <Content Include="Resources\288px-Festive_Dining_Table.png" />
+    <None Include="Resources\288px-Festive_Dining_Table1.png" />
+    <None Include="Resources\288px-Festive_Dining_Table2.png" />
+    <Content Include="Resources\288px-Mahogany_Dining_Table.png" />
+    <None Include="Resources\288px-Mahogany_Dining_Table1.png" />
+    <Content Include="Resources\air-hostess.png" />
+    <None Include="Resources\air-hostess1.png" />
+    <None Include="Resources\breakfast.png" />
+    <Content Include="Resources\businessman.png" />
+    <None Include="Resources\businessman1.png" />
+    <Content Include="Resources\chef.png" />
+    <Content Include="Resources\chef1.png" />
+    <None Include="Resources\chef11.png" />
+    <Content Include="Resources\chef2.png" />
+    <None Include="Resources\chef3.png" />
+    <None Include="Resources\chef21.png" />
+    <None Include="Resources\chef22.png" />
+    <Content Include="Resources\cooker.png" />
+    <None Include="Resources\cooker1.png" />
+    <None Include="Resources\cooking.png" />
+    <None Include="Resources\cooking %281%29.png" />
+    <Content Include="Resources\Dining_Chair_%28red%29.png" />
+    <None Include="Resources\Dining_Chair_%28red%291.png" />
+    <Content Include="Resources\Diviner_Table.png" />
+    <None Include="Resources\Diviner_Table1.png" />
+    <Content Include="Resources\donation.png" />
+    <None Include="Resources\donation1.png" />
+    <None Include="Resources\door.png" />
+    <None Include="Resources\door2.png" />
+    <None Include="Resources\fast-forward %281%29.png" />
+    <Content Include="Resources\Flooring_02.png" />
+    <Content Include="Resources\Flooring_021.png" />
+    <None Include="Resources\Flooring_0211.png" />
+    <Content Include="Resources\Flooring_022.png" />
+    <None Include="Resources\Flooring_023.png" />
+    <None Include="Resources\Flooring_0221.png" />
+    <Content Include="Resources\Flooring_06.png" />
+    <None Include="Resources\Flooring_061.png" />
+    <Content Include="Resources\Flooring_10.png" />
+    <Content Include="Resources\Flooring_101.png" />
+    <None Include="Resources\Flooring_1011.png" />
+    <Content Include="Resources\Flooring_102.png" />
+    <None Include="Resources\Flooring_1021.png" />
+    <Content Include="Resources\Flooring_103.png" />
+    <None Include="Resources\Flooring_104.png" />
+    <None Include="Resources\Flooring_1031.png" />
+    <Content Include="Resources\Flooring_11.png" />
+    <None Include="Resources\Flooring_111.png" />
+    <Content Include="Resources\Flooring_14.png" />
+    <None Include="Resources\Flooring_141.png" />
+    <Content Include="Resources\Flooring_18.png" />
+    <None Include="Resources\Flooring_181.png" />
+    <Content Include="Resources\Flooring_23.png" />
+    <None Include="Resources\Flooring_231.png" />
+    <Content Include="Resources\Flooring_36.png" />
+    <None Include="Resources\Flooring_361.png" />
+    <Content Include="Resources\Flooring_39.png" />
+    <None Include="Resources\Flooring_391.png" />
+    <None Include="Resources\food.png" />
+    <None Include="Resources\food %281%29.png" />
+    <None Include="Resources\food %282%29.png" />
+    <Content Include="Resources\fridge.png" />
+    <None Include="Resources\fridge1.png" />
+    <Content Include="Resources\full-frame-shot-of-red-textured-background_23-2147878490.jpg" />
+    <None Include="Resources\full-frame-shot-of-red-textured-background_23-21478784901.jpg" />
+    <Content Include="Resources\Grandmother_End_Table.png" />
+    <None Include="Resources\Grandmother_End_Table1.png" />
+    <None Include="Resources\Hob.png" />
+    <None Include="Resources\kitchen.png" />
+    <None Include="Resources\head-waiter.png" />
+    <None Include="Resources\head-waiter %281%29.png" />
+    <Content Include="Resources\Modern_Table.png" />
+    <Content Include="Resources\Modern_Table1.png" />
+    <None Include="Resources\Modern_Table2.png" />
+    <None Include="Resources\Modern_Table11.png" />
+    <Content Include="Resources\Modern_Tea-Table.png" />
+    <None Include="Resources\Modern_Tea-Table1.png" />
+    <None Include="Resources\Modern_Tea-Table2.png" />
+    <None Include="Resources\Modern_Tea-Table3.png" />
+    <Content Include="Resources\pause.png" />
+    <None Include="Resources\pause1.png" />
+    <Content Include="Resources\play-button.png" />
+    <None Include="Resources\play-button1.png" />
+    <None Include="Resources\settings.png" />
+    <Content Include="Resources\snowflake.png" />
+    <None Include="Resources\snowflake1.png" />
+    <Content Include="Resources\volunteer.png" />
+    <None Include="Resources\volunteer1.png" />
+    <Content Include="Resources\waiter %281%29.png" />
+    <None Include="Resources\waiter %281%291.png" />
+    <None Include="Resources\waiter %281%292.png" />
+    <Content Include="Resources\waiter.png" />
+    <None Include="Resources\waiter1.png" />
+    <None Include="Resources\waiter2.png" />
+    <Content Include="Resources\Wallpaper_068.png" />
+    <None Include="Resources\Wallpaper_0681.png" />
+    <Content Include="Resources\Winter_End_Table - Copie.png" />
+    <Content Include="Resources\Winter_End_Table - Copie1.png" />
+    <None Include="Resources\Winter_End_Table - Copie2.png" />
+    <None Include="Resources\Winter_End_Table - Copie11.png" />
+    <Content Include="Resources\Winter_End_Table.png" />
+    <Content Include="Resources\Winter_End_Table1.png" />
+    <None Include="Resources\Winter_End_Table11.png" />
+    <Content Include="Resources\Winter_End_Table2.png" />
+    <None Include="Resources\Winter_End_Table3.png" />
+    <None Include="Resources\Winter_End_Table21.png" />
+    <Content Include="Resources\Winter_Table - Copie.png" />
+    <None Include="Resources\Winter_Table - Copie1.png" />
+    <Content Include="Resources\Winter_Table.png" />
+    <Content Include="Resources\Winter_Table1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
