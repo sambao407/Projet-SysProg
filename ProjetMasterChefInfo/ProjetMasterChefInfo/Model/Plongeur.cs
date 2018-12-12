@@ -19,7 +19,7 @@ namespace ProjetMasterChefInfo.Model
             this.state = state;
         }
 
-        public void NettoyerOutilCuisiner(Plongeur plongeur, Materiel materiel)
+      /*  public void NettoyerOutilCuisiner(Plongeur plongeur, Materiel materiel)
         {
             if (plongeur.state == true)
             {
@@ -92,6 +92,6 @@ namespace ProjetMasterChefInfo.Model
                     plongeur.state = true;
                 }
             }
-        }
+        } */
     }
 }
