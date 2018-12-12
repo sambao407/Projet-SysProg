@@ -11,7 +11,7 @@ namespace ProjetMasterChefInfo
     public class KerimLauncher
     {
 
-        public static void Main()
+        /*public static void Main()
         {
 
             //Model.ChefCuisine ChefCuisineRudy = new Model.ChefCuisine(1, "ChefCuisineRudy", true);
@@ -60,6 +60,6 @@ namespace ProjetMasterChefInfo
             Console.ReadLine();*/
 
 
-        }
+        }*/
     }
 }
