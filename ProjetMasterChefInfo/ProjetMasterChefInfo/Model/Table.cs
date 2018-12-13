@@ -4,19 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProjetMasterChefInfo.Model
-{
-    class Table
-    {
-        public int id { get; set; }
-        public int rank { get; set; }
-        public int[] chairs { get; set; }
+namespace ProjetMasterChefInfo.Model {
 
-        public Table(int id, int rank)
-        {
-            this.id = id;
-            this.rank = rank;
-            chairs = new int[5] { 2, 4, 6, 8, 10 };
+    class Table {
+
+        public int tableId { get; set; }
+        public int[] tableSize { get; set; }
+
+        public Table() {
+
+            this.tableId = tableId;
+            this.tableSize = new int[] { 2, 4, 6, 8, 10 };
         }
     }
 }

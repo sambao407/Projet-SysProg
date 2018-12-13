@@ -43,11 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controler\Simulation.cs" />
     <Compile Include="DidierLauncher.cs" />
     <Compile Include="KerimLauncher.cs" />
     <Compile Include="MarcLauncher.cs" />
+    <Compile Include="Model\Chair.cs" />
     <Compile Include="Model\ChefCuisine.cs" />
     <Compile Include="Model\ChefRang.cs" />
+    <Compile Include="Model\RandomClientFactory.cs" />
     <Compile Include="Model\Client.cs" />
     <Compile Include="Model\Commande.cs" />
     <Compile Include="Model\CommisCuisine.cs" />
@@ -70,10 +73,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Controler\" />
     <Folder Include="View\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
