@@ -14,6 +14,7 @@ namespace ProjetMasterChefInfo
     {
         /*static void Main(string[] args)
         {
+
             Application.EnableVisualStyles();
             Application.Run(new IRestaurant());
 

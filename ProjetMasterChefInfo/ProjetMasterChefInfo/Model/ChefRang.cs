@@ -23,8 +23,8 @@ namespace ProjetMasterChefInfo.Model
         public void takeOrder(Client client)
         {
 
-            client.giveOrder();
-            Console.WriteLine("ChefRang[" + id + "]: <<" + client.order + ">> was added to pending orders");
+            //client.giveOrder()  ;
+            //Console.WriteLine("ChefRang[" + id + "]: <<" + client.order + ">> was added to pending orders");
             Comptoir comptoir = new Comptoir(0);
             comptoir.checkCounter();
         }
