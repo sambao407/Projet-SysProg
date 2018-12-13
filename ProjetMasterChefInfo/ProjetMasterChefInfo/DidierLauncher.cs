@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ProjetMasterChefInfo
 {
-   /* class DidierLauncher
+    class DidierLauncher
     {
         public static void Main()
         {
@@ -16,5 +16,5 @@ namespace ProjetMasterChefInfo
             ChefRang.Send();
             Console.ReadLine();
         }        
-    } */
+    } 
 }

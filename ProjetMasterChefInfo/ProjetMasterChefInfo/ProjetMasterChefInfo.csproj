@@ -34,6 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
@@ -74,7 +75,6 @@
     <Compile Include="Model\PlatConcret.cs" />
     <Compile Include="Model\Plongeur.cs" />
     <Compile Include="Model\Recette.cs" />
-    <Compile Include="Model\RecetteFactory.cs" />
     <Compile Include="Model\Serveur.cs" />
     <Compile Include="Model\Stock.cs" />
     <Compile Include="Model\Table.cs" />
@@ -98,6 +98,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\0657c00b43e2a66.jpg" />
+    <None Include="MasterChefInfo.config" />
     <None Include="Resources\évier.png" />
     <None Include="Resources\Winter_Table11.png" />
     <None Include="Resources\Winter_Table2.png" />
