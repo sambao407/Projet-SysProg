@@ -9,12 +9,21 @@ namespace ProjetMasterChefInfo
 {
     class DidierLauncher
     {
+<<<<<<< HEAD
         /*public static void Main()
+=======
+    /*   public static void Main()
+>>>>>>> origin/ModelTest
         {
             Comptoir.SetupServer();
             ChefRang.Connect();
             ChefRang.Send();
             Console.ReadLine();
+<<<<<<< HEAD
         }      */  
     } 
+=======
+        }   */  
+    }  
+>>>>>>> origin/ModelTest
 }

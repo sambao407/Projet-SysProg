@@ -46,6 +46,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
+=======
+    <Compile Include="Model\Ingredient.cs" />
+>>>>>>> origin/ModelTest
     <Compile Include="Model\RandomClientFactory.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -99,7 +103,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\0657c00b43e2a66.jpg" />
+<<<<<<< HEAD
     <None Include="MasterChefInfo.config" />
+=======
+    <None Include="Properties\DataSources\ProjetMasterChefInfo.Model.CommisCuisine.datasource" />
+    <None Include="Properties\DataSources\ProjetMasterChefInfo.Model.Cuisinier.datasource" />
+>>>>>>> origin/ModelTest
     <None Include="Resources\évier.png" />
     <None Include="Resources\Winter_Table11.png" />
     <None Include="Resources\Winter_Table2.png" />
