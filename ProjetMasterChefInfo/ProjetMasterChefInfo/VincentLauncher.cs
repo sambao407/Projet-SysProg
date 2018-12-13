@@ -12,6 +12,7 @@ namespace ProjetMasterChefInfo
 {
     class VincentLauncher
     {
+        [STAThread]
         static void Main(string[] args)
         {
 
