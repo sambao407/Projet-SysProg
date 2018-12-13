@@ -34,7 +34,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
@@ -46,8 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Model\Chair.cs" />
-    <Compile Include="Model\RandomClientFactory.cs" />
+    <Compile Include="Model\Ingredient.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -81,7 +79,6 @@
     <Compile Include="Model\Stock.cs" />
     <Compile Include="Model\Table.cs" />
     <Compile Include="Model\Testconnexion.cs" />
-    <Compile Include="Model\TestThreadPool.cs" />
     <Compile Include="OrlandoLauncher.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -100,7 +97,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\0657c00b43e2a66.jpg" />
-    <None Include="MasterChefInfo.config" />
     <None Include="Resources\évier.png" />
     <None Include="Resources\Winter_Table11.png" />
     <None Include="Resources\Winter_Table2.png" />

@@ -39,7 +39,7 @@ namespace ProjetMasterChefInfo.Model
             while (i == 0)
             {
                 i++;
-                String req = "Test";
+                String req = "Poulet au curry";
                 byte[] buffer = Encoding.ASCII.GetBytes(req);
                 _clientSocket.Send(buffer);
 
@@ -53,18 +53,18 @@ namespace ProjetMasterChefInfo.Model
         }
         public static void Connect()
         {
-            int attemps = 0;
+          //  int attemps = 0;
             while (!_clientSocket.Connected)
             {
                 try
                 {
-                    attemps++;
+                 //   attemps++;
                     _clientSocket.Connect(IPAddress.Loopback, 100);
                 }
                 catch (SocketException)
                 {
                     Console.Clear();
-                    Console.WriteLine("Connection Attemps: " + attemps.ToString());
+                //    Console.WriteLine("Connection Attemps: " + attemps.ToString());
                 }
             }
 

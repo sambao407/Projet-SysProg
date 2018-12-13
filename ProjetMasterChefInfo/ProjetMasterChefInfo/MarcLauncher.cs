@@ -8,9 +8,9 @@ namespace ProjetMasterChefInfo {
 
     class MarcLauncher {
 
-        /*static void Main() {
+      /*  static void Main() {
 
-            
+           
             int myInput;
             int.TryParse(Console.ReadLine(), out myInput);
             Controler.Simulation simulation = new Controler.Simulation();
@@ -30,6 +30,6 @@ namespace ProjetMasterChefInfo {
                 clientList[i].printClient();
             }
             Console.ReadLine();
-        }*/
+        } */
     }
 }
