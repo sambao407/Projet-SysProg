@@ -11,9 +11,9 @@ namespace ProjetMasterChefInfo
 
     public class KerimLauncher
     {
-        public static void Main()
+        /*public static void Main()
         {
-          /*  List<Model.Ingredient> ingredients = new List<Model.Ingredient>()
+            List<Model.Ingredient> ingredients = new List<Model.Ingredient>()
             {
                 new Model.Ingredient("Oignon", 50),
                 new Model.Ingredient("Tomate", 50),
@@ -46,7 +46,7 @@ namespace ProjetMasterChefInfo
 
             ChefCuisineRudy.AssignerTache(Commande1, CuisinierKerim);
             Thread ct1 = new Thread(() => CuisinierKerim.Cuisiner(CuisinierKerim, Commande1));
-            ct1.Start();*/
+            ct1.Start();
 
             //Model.Cuisinier CuisinierOrlando = new Model.Cuisinier(1, "Orlando", true, null);
 
@@ -78,6 +78,6 @@ namespace ProjetMasterChefInfo
             Console.ReadLine();
 
 
-        }
+        }*/
     }
 }

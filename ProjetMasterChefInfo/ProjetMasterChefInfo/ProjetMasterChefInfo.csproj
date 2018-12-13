@@ -97,6 +97,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\0657c00b43e2a66.jpg" />
+    <None Include="Properties\DataSources\ProjetMasterChefInfo.Model.CommisCuisine.datasource" />
+    <None Include="Properties\DataSources\ProjetMasterChefInfo.Model.Cuisinier.datasource" />
     <None Include="Resources\évier.png" />
     <None Include="Resources\Winter_Table11.png" />
     <None Include="Resources\Winter_Table2.png" />
