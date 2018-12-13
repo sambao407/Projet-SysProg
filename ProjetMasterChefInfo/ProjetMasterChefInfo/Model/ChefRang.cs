@@ -32,14 +32,13 @@ namespace ProjetMasterChefInfo.Model
         private static Socket _clientSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
         
 
-        public static void Send()
+        public static void Send(string req)
         {
             int i = 0;
-
+            Client client = new Client();
             while (i == 0)
             {
                 i++;
-                String req = "Poulet au curry";
                 byte[] buffer = Encoding.ASCII.GetBytes(req);
                 _clientSocket.Send(buffer);
 
