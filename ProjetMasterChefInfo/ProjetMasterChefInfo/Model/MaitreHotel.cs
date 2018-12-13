@@ -16,12 +16,12 @@ namespace ProjetMasterChefInfo.Model {
 
         public void checkBooking() {
 
-            Client client = new Client(1, Order.Entree, true);
+            //Client client = new Client(1, Order.Entree, true);
             Table table = new Table(1, 1);
-            client.initClient();
+            //client.initClient();
             Console.WriteLine("MaitreHotel[" + id + "]: You're assigned to Table[" + table.id + "] with <<" + table.chairs[1] + ">> available chairs");
-            ChefRang chefrang= new ChefRang(1);
-            chefrang.takeOrder(client);
+            ChefRang chefrang = new ChefRang(1);
+            //chefrang.takeOrder(client);
         }
     }
 }

@@ -12,12 +12,13 @@ namespace ProjetMasterChefInfo
 {
     class VincentLauncher
     {
-        /*static void Main(string[] args)
+        static void Main(string[] args)
         {
+
             Application.EnableVisualStyles();
             Application.Run(new IRestaurant());
 
-        }*/
+        }
 
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProjetMasterChefInfo.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,8 +9,12 @@ namespace ProjetMasterChefInfo
 {
     class DidierLauncher
     {
-        /*TestConnexion p = new TestConnexion();
-            p.connect();
-            Console.ReadLine();*/
-    }
+     /*   public static void Main()
+        {
+            Comptoir.SetupServer();
+            ChefRang.Connect();
+            ChefRang.Send();
+            Console.ReadLine();
+        }       */ 
+    }  
 }

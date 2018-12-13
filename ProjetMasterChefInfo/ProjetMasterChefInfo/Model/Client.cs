@@ -6,26 +6,60 @@ using System.Threading.Tasks;
 
 namespace ProjetMasterChefInfo.Model {
 
-    public enum Order{ Entree, Plat, Dessert }
+    public enum ClientOrder {
+        Hamburger,
+        Lasagne,
+        Cari_de_Poulet,
+        Gaspacho,
+        Salade_Chevre_Chaud,
+        Muffin,
+        Mousse_au_Chocolat,
+        Salade_de_Fruit,
+        Riz_au_Lait
+    }
 
-    class Client {
+    class Client : IDisposable {
 
-        public int id { get; set; }
-        public Order order { get; set; }
-        public bool bookState { get; set; }
+        private static List<bool> UsedCounter = new List<bool>();
 
-        public Client(int id, Order order, bool bookState) {
-            this.id = id;
-            this.order = order;
-            this.bookState = bookState;
+        public int clientId { get; private set; }
+        public ClientOrder clientorder { get; set; }
+        public bool clientBooking { get; set; }
+
+        public Client() {
+
+            int nextIndex = GetAvailableIndex();
+            if (nextIndex == -1) {
+
+                nextIndex = UsedCounter.Count;
+                UsedCounter.Add(true);
+            }
+
+            this.clientId = nextIndex;
+
+            this.clientorder = clientorder;
+            this.clientBooking = clientBooking;
         }
 
-        public void initClient() {
-            Console.WriteLine("Client[" + id + "]: My bookState is <<" + bookState + ">>");
+        public void Dispose() {
+
+            UsedCounter[clientId] = false;
         }
 
-        public void giveOrder() {
-            Console.WriteLine("Client[" + id + "]: My order is <<" + order + ">>");
+        private int GetAvailableIndex() {
+
+            for (int i = 0; i < UsedCounter.Count; i++) {
+
+                if (UsedCounter[i] == false) {
+
+                    return i;
+                }
+            }
+            return -1;
+        }
+
+        public void printClient() {
+            Console.WriteLine("Client[" + clientId + "]: My Order is " + clientorder + " and my booking is <<" + clientBooking + ">>");
         }
     }
 }
