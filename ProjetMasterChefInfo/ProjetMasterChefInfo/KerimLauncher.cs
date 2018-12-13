@@ -4,31 +4,49 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using ProjetMasterChefInfo.Model;
 
 namespace ProjetMasterChefInfo
 {
 
     public class KerimLauncher
     {
-
-        /*public static void Main()
+        public static void Main()
         {
+          /*  List<Model.Ingredient> ingredients = new List<Model.Ingredient>()
+            {
+                new Model.Ingredient("Oignon", 50),
+                new Model.Ingredient("Tomate", 50),
+                new Model.Ingredient("Oignon", 50),
+                new Model.Ingredient("Ail", 50),
+                new Model.Ingredient("Comcombre", 50),
+                new Model.Ingredient("Pain", 50),
+                new Model.Ingredient("Gingembre", 50),
+                new Model.Ingredient("Steack", 50),
+                new Model.Ingredient("Salade", 50),
+                new Model.Ingredient("Jambon", 50),
+                new Model.Ingredient("Yaourt", 50),
+                new Model.Ingredient("Farine", 50),
+                new Model.Ingredient("Patate", 50),
+                new Model.Ingredient("Chocolat", 50)
 
-            //Model.ChefCuisine ChefCuisineRudy = new Model.ChefCuisine(1, "ChefCuisineRudy", true);
+            };
+
+            Model.Stock.Instance.CreateStock(ingredients);
 
 
-            //Model.Cuisinier CuisinierKerim = new Model.Cuisinier(1, "Kerim", true, null);
-
-            //Model.Recette Burger = new Model.Recette(1, "Hamburger", "R", "Steack Haché", "Salade", "Patate", 5);
-
-            //Model.Commande Commande1 = new Model.Commande(1, 0, Burger);
-
-            //ChefCuisineRudy.AssignerTache(Commande1, CuisinierKerim);
+            Model.ChefCuisine ChefCuisineRudy = new Model.ChefCuisine(1, "ChefCuisineRudy", true);
 
 
+            Model.Cuisinier CuisinierKerim = new Model.Cuisinier(1, "Kerim", true, null);
 
-            //Thread ct1 = new Thread(() => CuisinierKerim.Cuisiner(CuisinierKerim, Commande1));
-            //ct1.Start();
+            Model.Recette Burger = new Model.Recette(1, "Hamburger", "Tomate", "Steack", "Salade", "Patate", 5);
+
+            Model.Commande Commande1 = new Model.Commande(1, 0, Burger);
+
+            ChefCuisineRudy.AssignerTache(Commande1, CuisinierKerim);
+            Thread ct1 = new Thread(() => CuisinierKerim.Cuisiner(CuisinierKerim, Commande1));
+            ct1.Start();*/
 
             //Model.Cuisinier CuisinierOrlando = new Model.Cuisinier(1, "Orlando", true, null);
 
@@ -41,7 +59,7 @@ namespace ProjetMasterChefInfo
             //Model.CommisCuisine Orlando = new Model.CommisCuisine(1, "Orlando", true);
             // Orlando.Eplucher(Orlando, Commande1);
 
-            //Model.Recette Muffin = new Model.Recette(6, "Muffin", "Jambon", "Fromage", "Farine", "Yaourt nature");
+            // Model.Recette Muffin = new Model.Recette(6, "Muffin", "Jambon", "Fromage", "Farine", "Yaourt");
             //Model.Recette Mousse_Au_Chocolat = new Model.Recette(7, "Mousse au chocolat", "Chocolat", "Beurre", "Oeuf", "Sucre");
             //Model.Recette Salade_De_Fruit = new Model.Recette(8, "Salade de fruit", "Poire", "Pomme", "Cerise", "Orange");
             //Model.Recette Riz_Au_Lait = new Model.Recette(9, "Riz au lait", "Riz", "Lait", "Vanille", "Sucre");
@@ -55,11 +73,11 @@ namespace ProjetMasterChefInfo
 
             //Model.Stock Stock = new Model.Stock("StockIngredient");
 
-          /*  Model.Stock stock = new Model.Stock();
-            stock.Decrement();
-            Console.ReadLine();*/
 
 
-        }*/
+            Console.ReadLine();
+
+
+        }
     }
 }

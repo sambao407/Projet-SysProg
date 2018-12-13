@@ -14,9 +14,9 @@ namespace ProjetMasterChefInfo.Model {
             this.Nom = Nom;
          } 
 
-    public  void ravitallier()
+    public  void Ravitallier()
         {
-
+            
 
         }
 

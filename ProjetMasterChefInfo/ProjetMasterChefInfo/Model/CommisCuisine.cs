@@ -59,14 +59,12 @@ namespace ProjetMasterChefInfo.Model
             if (commande.stateCommande == 3) // si la commande est déjà en cours de préparation
             {
                 commisCuisine.state = false;
-
-                /*if (commande.composant1)
-                {
-                    
-                }*/
-
                 Console.WriteLine("Le commis va chercher les ingrédients.");
                 Thread.Sleep(2000);
+                Model.Stock.Instance.Decrement(commande.composant1);
+                Model.Stock.Instance.Decrement(commande.composant2);
+                Model.Stock.Instance.Decrement(commande.composant3);
+                Model.Stock.Instance.Decrement(commande.composant4);       
                 commisCuisine.state = true;
             }
 

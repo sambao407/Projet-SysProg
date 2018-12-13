@@ -3,47 +3,51 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ProjetMasterChefInfo.Model;
 
 namespace ProjetMasterChefInfo.Model {
-
-    /*public enum StockIngredient
-    {
-        Tomate = 50,
-        Patate = 35,
-        Carotte = 50,
-        Ail = 50,
-    }*/
-
    
-    public class Stock {
+    public sealed class Stock
+    {
+        private static Stock instance = null;
+        private static readonly object padlock = new object();
 
-        //public StockIngredient stockingredient { get; set; }
-        public List<Ingredient> Ingredient = new List<Ingredient>();
-
-        public Stock()
+        public static Stock Instance
         {
-            this.Ingredient = Ingredient;
+            get
+            {
+                lock (padlock)
+                {
+                    if(instance == null)
+                        instance = new Stock();
+
+                    return instance;
+                }
+            }
         }
 
-        public void Decrement()
+        private List<Ingredient> Ingredients = new List<Ingredient>();
+
+        public void CreateStock(List<Ingredient> ingredients)
         {
-          /*  Stock stock = new Stock();
-            StockIngredient.Patate -= 1;
-            Console.WriteLine(StockIngredient.Patate - 1);*/
+            this.Ingredients = ingredients;
+        }
+
+        public void AddToStock(Ingredient ingredient)
+        {
+            this.Ingredients.Add(ingredient);
+        }
+
+        public void Decrement(string ingredient)
+        {
+            Console.WriteLine(ingredient);
+            Ingredient temp = Ingredients.FirstOrDefault(x => x.nom.Equals(ingredient));
+            
+            if(temp != null)
+                temp.nombre -= 1;
+                
+            
+            Console.WriteLine(temp.nombre);
         }
     }
-
-    public class Ingredient{
-
-        public string nom;
-        public int nombre;
-
-        public Ingredient(string nom, int nombre)
-        {
-            this.nom = nom;
-            this.nombre = nombre;
-        }
-    }
-
-
 }
